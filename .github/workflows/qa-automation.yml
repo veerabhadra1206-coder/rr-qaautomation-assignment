@@ -34,7 +34,7 @@ jobs:
         run: |
           pytest
 
-      # 5️⃣ Upload HTML report as GitHub Actions artifact
+      # Upload HTML report as GitHub Actions artifact
       - name: Upload HTML Report
         uses: actions/upload-artifact@v4
         with:
