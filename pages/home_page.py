@@ -1,10 +1,15 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
+from utils.config import EXPLICIT_WAIT
 from selenium.webdriver.support import expected_conditions as EC
-from pages.base_page import BasePage
+from utils.logger import get_logger
 
-class HomePage(BasePage):
-
+logger = get_logger(__name__)
+class HomePage:
+    def __init__(self, driver):
+        self.driver = driver
+        self.wait = WebDriverWait(driver, EXPLICIT_WAIT)
+        self.logger = get_logger(self.__class__.__name__)
     # Locators
     CATEGORY_FILTER = (By.XPATH, "//nav//ul/li/a")
     MOVIE_TITLES = (By.XPATH, "//div[contains(@class,'flex flex-col items-center')]/p[1]")
