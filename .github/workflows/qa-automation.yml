@@ -19,7 +19,7 @@ jobs:
 
       # Setup Python
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v4
         with:
           python-version: "3.10"
 
@@ -34,11 +34,12 @@ jobs:
       # Run Pytest
       - name: Run Pytest Tests
         run: |
-          pytest
+          pytest --html=reports/report.html
 
       # Upload HTML report as GitHub Actions artifact
       - name: Upload HTML Report
         uses: actions/upload-artifact@v4
+        if: success() || failure()
         with:
           name: pytest-html-report
-          path: reports/pytest-html-report.html
+          path: reports
