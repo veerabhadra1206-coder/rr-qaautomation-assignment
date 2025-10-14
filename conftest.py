@@ -32,12 +32,9 @@ def pytest_runtest_makereport(item, call):
     if report.when == "call" and report.failed:
         driver = item.funcargs.get("driver", None)
         if driver:
-            # checking if screenshot folder exists
-            os.makedirs("screenshots", exist_ok=True)
-
             # Save screenshot with timestamp
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            screenshot_path = os.path.abspath(os.path.join("screenshots", f"{item.name}_{timestamp}.png"))
+            screenshot_path = os.path.join(SCREENSHOTS_DIR, f"{item.name}_{timestamp}.png")
             driver.save_screenshot(screenshot_path)
 
             # Adding screenshot to pytest-html report
