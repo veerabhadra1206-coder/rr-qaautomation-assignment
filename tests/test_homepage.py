@@ -1,5 +1,3 @@
-from _pyrepl.commands import home
-
 import pytest
 import logging
 from selenium.webdriver.common.by import By
