@@ -10,7 +10,7 @@ API_KEY = "add494e96808c55b3ee7f940c9d5e5b6"
 CATEGORIES = ["popular", "top_rated", "now_playing"]
 START_YEAR = 1900
 END_YEAR = 2025
-PAGE_NUMBER = 1
+PAGE_NUMBER = 2
 params = {
     "sort_by": "popularity.desc",
     "release_date.gte": f"{START_YEAR}-01-01",
