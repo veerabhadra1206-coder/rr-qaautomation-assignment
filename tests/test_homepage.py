@@ -17,7 +17,7 @@ def test_category_filter(driver, category, slug):
     home = HomePage(driver)
     logger.info("  Starting Category Filter Test  ")
     try:
-        logger.info(f"Step 1: Selecting category → {category}")
+        logger.info(f"Step 1: Selecting category: {category}")
         home.select_category(category)
 
         logger.info("Step 2: Waiting for page elements to load")
