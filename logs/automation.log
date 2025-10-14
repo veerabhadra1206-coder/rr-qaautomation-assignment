@@ -1,0 +1,1070 @@
+2025-10-14 15:21:57 | INFO | HomePage | Selected page: 53019
+2025-10-14 15:22:08 | ERROR | HomePage | Error getting titles: Message: 
+
+2025-10-14 15:26:53 | INFO | automation | ==== Starting API Test for Category: popular ====
+2025-10-14 15:26:53 | INFO | automation | Step 1: Sending GET request to https://api.themoviedb.org/3/movie/popular?page=1&api_key=add494e96808c55b3ee7f940c9d5e5b6
+2025-10-14 15:26:54 | INFO | automation | Response Code: 200
+2025-10-14 15:26:54 | INFO | automation | Step 2: Parsing JSON response
+2025-10-14 15:26:54 | INFO | automation | Step 3: Validating presence of 'results' key
+2025-10-14 15:26:54 | INFO | automation | Step 4: Number of movies returned: 20
+2025-10-14 15:26:54 | INFO | automation | Step 5: Validating fields for first 5 movies
+2025-10-14 15:26:54 | INFO | automation | Validating Movie 1: The Conjuring: Last Rites
+2025-10-14 15:26:54 | INFO | automation | Validating Movie 2: The Lost Princess
+2025-10-14 15:26:54 | INFO | automation | Validating Movie 3: The Toxic Avenger Unrated
+2025-10-14 15:26:54 | INFO | automation | Validating Movie 4: Demon Slayer: Kimetsu no Yaiba Infinity Castle
+2025-10-14 15:26:54 | INFO | automation | Validating Movie 5: War of the Worlds
+2025-10-14 15:26:54 | INFO | automation | ==== API Test Passed for 'popular' ====
+2025-10-14 15:26:54 | INFO | automation | ==== Starting API Test for Category: top_rated ====
+2025-10-14 15:26:54 | INFO | automation | Step 1: Sending GET request to https://api.themoviedb.org/3/movie/top_rated?page=1&api_key=add494e96808c55b3ee7f940c9d5e5b6
+2025-10-14 15:26:55 | INFO | automation | Response Code: 200
+2025-10-14 15:26:55 | INFO | automation | Step 2: Parsing JSON response
+2025-10-14 15:26:55 | INFO | automation | Step 3: Validating presence of 'results' key
+2025-10-14 15:26:55 | INFO | automation | Step 4: Number of movies returned: 20
+2025-10-14 15:26:55 | INFO | automation | Step 5: Validating fields for first 5 movies
+2025-10-14 15:26:55 | INFO | automation | Validating Movie 1: The Shawshank Redemption
+2025-10-14 15:26:55 | INFO | automation | Validating Movie 2: The Godfather
+2025-10-14 15:26:55 | INFO | automation | Validating Movie 3: The Godfather Part II
+2025-10-14 15:26:55 | INFO | automation | Validating Movie 4: Schindler's List
+2025-10-14 15:26:55 | INFO | automation | Validating Movie 5: 12 Angry Men
+2025-10-14 15:26:55 | INFO | automation | ==== API Test Passed for 'top_rated' ====
+2025-10-14 15:26:55 | INFO | automation | ==== Starting API Test for Category: now_playing ====
+2025-10-14 15:26:55 | INFO | automation | Step 1: Sending GET request to https://api.themoviedb.org/3/movie/now_playing?page=1&api_key=add494e96808c55b3ee7f940c9d5e5b6
+2025-10-14 15:26:56 | INFO | automation | Response Code: 200
+2025-10-14 15:26:56 | INFO | automation | Step 2: Parsing JSON response
+2025-10-14 15:26:56 | INFO | automation | Step 3: Validating presence of 'results' key
+2025-10-14 15:26:56 | INFO | automation | Step 4: Number of movies returned: 20
+2025-10-14 15:26:56 | INFO | automation | Step 5: Validating fields for first 5 movies
+2025-10-14 15:26:56 | INFO | automation | Validating Movie 1: The Conjuring: Last Rites
+2025-10-14 15:26:56 | INFO | automation | Validating Movie 2: The Toxic Avenger Unrated
+2025-10-14 15:26:56 | INFO | automation | Validating Movie 3: Demon Slayer: Kimetsu no Yaiba Infinity Castle
+2025-10-14 15:26:56 | INFO | automation | Validating Movie 4: Play Dirty
+2025-10-14 15:26:56 | INFO | automation | Validating Movie 5: HIM
+2025-10-14 15:26:56 | INFO | automation | ==== API Test Passed for 'now_playing' ====
+2025-10-14 15:26:56 | INFO | automation | ==== Starting API Test for Rating Filter ====
+2025-10-14 15:26:57 | INFO | automation | Request URL: https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&release_date.gte=1900-01-01&release_date.lte=2025-12-31&vote_average.gte=5&vote_average.lte=5&page=1&api_key=add494e96808c55b3ee7f940c9d5e5b6
+2025-10-14 15:26:57 | INFO | automation | Response Status: 200
+2025-10-14 15:26:57 | INFO | automation | Total Movies Returned: 20
+2025-10-14 15:26:57 | INFO | automation | Movie: Lubuk | Vote: 5.0
+2025-10-14 15:26:57 | INFO | automation | Movie: Beasts Cage | Vote: 5.0
+2025-10-14 15:26:57 | INFO | automation | Movie: Homo Argentum | Vote: 5.0
+2025-10-14 15:26:57 | INFO | automation | Movie: Favorite Concubine | Vote: 5.0
+2025-10-14 15:26:57 | INFO | automation | Movie: The Astronaut | Vote: 5.0
+2025-10-14 15:26:57 | INFO | automation | Movie: Molester Diary: A Man Who Kept Stroking Ass 3 | Vote: 5.0
+2025-10-14 15:26:57 | INFO | automation | Movie: Bosomy Mom 2 | Vote: 5.0
+2025-10-14 15:26:57 | INFO | automation | Movie: The Story of Ong-nyeo | Vote: 5.0
+2025-10-14 15:26:57 | INFO | automation | Movie: Acquitted by Faith | Vote: 5.0
+2025-10-14 15:26:57 | INFO | automation | Movie: Ungol | Vote: 5.0
+2025-10-14 15:26:57 | INFO | automation | Movie: Jinkx Monsoon: Red Head Redemption | Vote: 5.0
+2025-10-14 15:26:57 | INFO | automation | Movie: Axemas 2: Blood Slay | Vote: 5.0
+2025-10-14 15:26:57 | INFO | automation | Movie: The Devil Is Busy | Vote: 4.0
+2025-10-14 15:26:57 | INFO | automation | Movie: Control Room | Vote: 5.0
+2025-10-14 15:26:57 | INFO | automation | Movie: Swapping: My Friend's Wife 2 | Vote: 5.0
+2025-10-14 15:26:57 | INFO | automation | Movie: The Monster of Highgate Ponds | Vote: 5.0
+2025-10-14 15:26:57 | INFO | automation | Movie: The Oldest Profession | Vote: 5.0
+2025-10-14 15:26:57 | INFO | automation | Movie: Sorceress | Vote: 5.0
+2025-10-14 15:26:57 | INFO | automation | Movie: Snake Skin | Vote: 5.0
+2025-10-14 15:26:57 | INFO | automation | Movie: Stealing Lust | Vote: 5.0
+2025-10-14 15:26:57 | INFO | automation | ==== API Test Passed for Rating Filter ====
+
+2025-10-14 15:26:57 | INFO | automation | ==== Starting Year Range Test: 2000-2010 ====
+2025-10-14 15:26:57 | INFO | automation | Request URL: https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&release_date.gte=2000-01-01&release_date.lte=2010-12-31&vote_average.gte=0&vote_average.lte=5&page=1&api_key=add494e96808c55b3ee7f940c9d5e5b6
+2025-10-14 15:26:57 | INFO | automation | Response Status: 200
+2025-10-14 15:26:57 | INFO | automation | Movies Found: 20
+2025-10-14 15:26:57 | ERROR | automation | Assertion failed: (1989) is not in range
+assert 2000 <= 1989
+2025-10-14 15:26:58 | INFO | automation | ==== Starting Year Range Test: 2015-2025 ====
+2025-10-14 15:26:58 | INFO | automation | Request URL: https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&release_date.gte=2015-01-01&release_date.lte=2025-12-31&vote_average.gte=0&vote_average.lte=5&page=1&api_key=add494e96808c55b3ee7f940c9d5e5b6
+2025-10-14 15:26:58 | INFO | automation | Response Status: 200
+2025-10-14 15:26:58 | INFO | automation | Movies Found: 20
+2025-10-14 15:26:58 | INFO | automation | ==== API Year Range Test Passed for 2015-2025 ====
+
+2025-10-14 15:26:58 | INFO | automation | ==== Starting Pagination Test for Page 1 ====
+2025-10-14 15:26:59 | INFO | automation | Step 3: Validating 'results' in response JSON
+2025-10-14 15:26:59 | INFO | automation | ==== Pagination Test Passed for Page 1 ====
+
+2025-10-14 15:26:59 | INFO | automation | ==== Starting Pagination Test for Page 2 ====
+2025-10-14 15:27:00 | INFO | automation | Step 3: Validating 'results' in response JSON
+2025-10-14 15:27:00 | INFO | automation | ==== Pagination Test Passed for Page 2 ====
+
+2025-10-14 15:27:00 | INFO | automation | ==== Starting Pagination Test for Page 3 ====
+2025-10-14 15:27:01 | INFO | automation | Step 3: Validating 'results' in response JSON
+2025-10-14 15:27:01 | INFO | automation | ==== Pagination Test Passed for Page 3 ====
+
+2025-10-14 15:27:01 | INFO | automation | ==== Starting Pagination Test for Page 4 ====
+2025-10-14 15:27:02 | INFO | automation | Step 3: Validating 'results' in response JSON
+2025-10-14 15:27:02 | INFO | automation | ==== Pagination Test Passed for Page 4 ====
+
+2025-10-14 15:27:09 | INFO | HomePage | Selecting category: Popular
+2025-10-14 15:27:10 | INFO | HomePage | Clicked on category: Popular
+2025-10-14 15:27:10 | INFO | HomePage | Found 20 movie titles: ['The Conjuring: Last Rites', 'The Lost Princess', 'The Toxic Avenger Unrated', 'Demon Slayer: Kimetsu no Yaiba Infinity Castle', 'War of the Worlds'] ...
+2025-10-14 15:27:20 | INFO | HomePage | Selecting category: Trending
+2025-10-14 15:27:31 | ERROR | HomePage | Error selecting category 'Trending': Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x64fea3+66515]
+	GetHandleVerifier [0x0x64fee4+66580]
+	(No symbol) [0x0x43dc48]
+	(No symbol) [0x0x488704]
+	(No symbol) [0x0x488aab]
+	(No symbol) [0x0x4cf482]
+	(No symbol) [0x0x4ab214]
+	(No symbol) [0x0x4ccba7]
+	(No symbol) [0x0x4aafc6]
+	(No symbol) [0x0x47c2ca]
+	(No symbol) [0x0x47d154]
+	GetHandleVerifier [0x0x8a73d3+2521347]
+	GetHandleVerifier [0x0x8a2353+2500739]
+	GetHandleVerifier [0x0x677cf4+229924]
+	GetHandleVerifier [0x0x668258+165768]
+	GetHandleVerifier [0x0x66ed0d+193085]
+	GetHandleVerifier [0x0x6581b8+100072]
+	GetHandleVerifier [0x0x658350+100480]
+	GetHandleVerifier [0x0x64260a+11066]
+	BaseThreadInitThunk [0x0x75125d49+25]
+	RtlInitializeExceptionChain [0x0x7744d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7744d661+561]
+
+2025-10-14 15:27:41 | INFO | HomePage | Selecting category: Newest
+2025-10-14 15:27:42 | INFO | HomePage | Clicked on category: Newest
+2025-10-14 15:27:52 | INFO | HomePage | Selecting category: Top rated
+2025-10-14 15:27:52 | INFO | HomePage | Clicked on category: Top rated
+2025-10-14 15:27:53 | INFO | HomePage | Found 20 movie titles: ['The Shawshank Redemption', 'The Godfather', 'The Godfather Part II', "Schindler's List", '12 Angry Men'] ...
+2025-10-14 15:28:03 | INFO | HomePage | Selected type: Movie
+2025-10-14 15:28:03 | INFO | HomePage | Currently selected type: Movie
+2025-10-14 15:28:12 | INFO | HomePage | Selected type: TV Shows
+2025-10-14 15:28:12 | INFO | HomePage | Currently selected type: TV Shows
+2025-10-14 15:28:22 | INFO | HomePage | Year range selected: 1900-2024
+2025-10-14 15:28:22 | INFO | HomePage | Selected start year: 1900
+2025-10-14 15:28:22 | INFO | HomePage | Selected end year: 2024
+2025-10-14 15:28:23 | INFO | HomePage | Extracted years: ['2025', '2025', '2025', '2025', '2025'] ...
+2025-10-14 15:28:33 | INFO | HomePage | Year range selected: 2000-2020
+2025-10-14 15:28:33 | INFO | HomePage | Selected start year: 2000
+2025-10-14 15:28:33 | INFO | HomePage | Selected end year: 2020
+2025-10-14 15:28:34 | INFO | HomePage | Extracted years: ['2008', '2020', '2015', '2020', '2017'] ...
+2025-10-14 15:28:44 | INFO | HomePage | Selected rating: 1 stars
+2025-10-14 15:28:53 | INFO | HomePage | Selected rating: 2 stars
+2025-10-14 15:29:03 | INFO | HomePage | Selected genre: Action
+2025-10-14 15:29:14 | ERROR | HomePage | Error selecting genre 'Action': Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x64fea3+66515]
+	GetHandleVerifier [0x0x64fee4+66580]
+	(No symbol) [0x0x43dc48]
+	(No symbol) [0x0x488704]
+	(No symbol) [0x0x488aab]
+	(No symbol) [0x0x4cf482]
+	(No symbol) [0x0x4ab214]
+	(No symbol) [0x0x4ccba7]
+	(No symbol) [0x0x4aafc6]
+	(No symbol) [0x0x47c2ca]
+	(No symbol) [0x0x47d154]
+	GetHandleVerifier [0x0x8a73d3+2521347]
+	GetHandleVerifier [0x0x8a2353+2500739]
+	GetHandleVerifier [0x0x677cf4+229924]
+	GetHandleVerifier [0x0x668258+165768]
+	GetHandleVerifier [0x0x66ed0d+193085]
+	GetHandleVerifier [0x0x6581b8+100072]
+	GetHandleVerifier [0x0x658350+100480]
+	GetHandleVerifier [0x0x64260a+11066]
+	BaseThreadInitThunk [0x0x75125d49+25]
+	RtlInitializeExceptionChain [0x0x7744d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7744d661+561]
+
+2025-10-14 15:29:24 | INFO | HomePage | Pagination is visible.
+2025-10-14 15:29:24 | INFO | HomePage | Clicked next page button.
+2025-10-14 15:29:24 | ERROR | HomePage | Error getting selected page number: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.67)
+Stacktrace:
+	GetHandleVerifier [0x0x64fea3+66515]
+	GetHandleVerifier [0x0x64fee4+66580]
+	(No symbol) [0x0x43dc48]
+	(No symbol) [0x0x444617]
+	(No symbol) [0x0x4469d4]
+	(No symbol) [0x0x446a68]
+	(No symbol) [0x0x4831de]
+	(No symbol) [0x0x4ab1cc]
+	(No symbol) [0x0x47db74]
+	(No symbol) [0x0x4ab384]
+	(No symbol) [0x0x4ccba7]
+	(No symbol) [0x0x4aafc6]
+	(No symbol) [0x0x47c2ca]
+	(No symbol) [0x0x47d154]
+	GetHandleVerifier [0x0x8a73d3+2521347]
+	GetHandleVerifier [0x0x8a2353+2500739]
+	GetHandleVerifier [0x0x677cf4+229924]
+	GetHandleVerifier [0x0x668258+165768]
+	GetHandleVerifier [0x0x66ed0d+193085]
+	GetHandleVerifier [0x0x6581b8+100072]
+	GetHandleVerifier [0x0x658350+100480]
+	GetHandleVerifier [0x0x64260a+11066]
+	BaseThreadInitThunk [0x0x75125d49+25]
+	RtlInitializeExceptionChain [0x0x7744d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7744d661+561]
+
+2025-10-14 15:30:13 | INFO | HomePage | Selected page: 53019
+2025-10-14 15:30:24 | ERROR | HomePage | Error getting titles: Message: 
+
+2025-10-14 15:40:27 | INFO | automation | ==== Starting API Test for Category: popular ====
+2025-10-14 15:40:27 | INFO | automation | Step 1: Sending GET request to https://api.themoviedb.org/3/movie/popular?page=1&api_key=add494e96808c55b3ee7f940c9d5e5b6
+2025-10-14 15:40:28 | INFO | automation | Response Code: 200
+2025-10-14 15:40:28 | INFO | automation | Step 2: Parsing JSON response
+2025-10-14 15:40:28 | INFO | automation | Step 3: Validating presence of 'results' key
+2025-10-14 15:40:28 | INFO | automation | Step 4: Number of movies returned: 20
+2025-10-14 15:40:28 | INFO | automation | Step 5: Validating fields for first 5 movies
+2025-10-14 15:40:28 | INFO | automation | Validating Movie 1: The Conjuring: Last Rites
+2025-10-14 15:40:28 | INFO | automation | Validating Movie 2: The Lost Princess
+2025-10-14 15:40:28 | INFO | automation | Validating Movie 3: The Toxic Avenger Unrated
+2025-10-14 15:40:28 | INFO | automation | Validating Movie 4: Demon Slayer: Kimetsu no Yaiba Infinity Castle
+2025-10-14 15:40:28 | INFO | automation | Validating Movie 5: War of the Worlds
+2025-10-14 15:40:28 | INFO | automation | ==== API Test Passed for 'popular' ====
+2025-10-14 15:40:28 | INFO | automation | ==== Starting API Test for Category: top_rated ====
+2025-10-14 15:40:28 | INFO | automation | Step 1: Sending GET request to https://api.themoviedb.org/3/movie/top_rated?page=1&api_key=add494e96808c55b3ee7f940c9d5e5b6
+2025-10-14 15:40:29 | INFO | automation | Response Code: 200
+2025-10-14 15:40:29 | INFO | automation | Step 2: Parsing JSON response
+2025-10-14 15:40:29 | INFO | automation | Step 3: Validating presence of 'results' key
+2025-10-14 15:40:29 | INFO | automation | Step 4: Number of movies returned: 20
+2025-10-14 15:40:29 | INFO | automation | Step 5: Validating fields for first 5 movies
+2025-10-14 15:40:29 | INFO | automation | Validating Movie 1: The Shawshank Redemption
+2025-10-14 15:40:29 | INFO | automation | Validating Movie 2: The Godfather
+2025-10-14 15:40:29 | INFO | automation | Validating Movie 3: The Godfather Part II
+2025-10-14 15:40:29 | INFO | automation | Validating Movie 4: Schindler's List
+2025-10-14 15:40:29 | INFO | automation | Validating Movie 5: 12 Angry Men
+2025-10-14 15:40:29 | INFO | automation | ==== API Test Passed for 'top_rated' ====
+2025-10-14 15:40:29 | INFO | automation | ==== Starting API Test for Category: now_playing ====
+2025-10-14 15:40:29 | INFO | automation | Step 1: Sending GET request to https://api.themoviedb.org/3/movie/now_playing?page=1&api_key=add494e96808c55b3ee7f940c9d5e5b6
+2025-10-14 15:40:30 | INFO | automation | Response Code: 200
+2025-10-14 15:40:30 | INFO | automation | Step 2: Parsing JSON response
+2025-10-14 15:40:30 | INFO | automation | Step 3: Validating presence of 'results' key
+2025-10-14 15:40:30 | INFO | automation | Step 4: Number of movies returned: 20
+2025-10-14 15:40:30 | INFO | automation | Step 5: Validating fields for first 5 movies
+2025-10-14 15:40:30 | INFO | automation | Validating Movie 1: The Conjuring: Last Rites
+2025-10-14 15:40:30 | INFO | automation | Validating Movie 2: The Toxic Avenger Unrated
+2025-10-14 15:40:30 | INFO | automation | Validating Movie 3: Demon Slayer: Kimetsu no Yaiba Infinity Castle
+2025-10-14 15:40:30 | INFO | automation | Validating Movie 4: Play Dirty
+2025-10-14 15:40:30 | INFO | automation | Validating Movie 5: HIM
+2025-10-14 15:40:30 | INFO | automation | ==== API Test Passed for 'now_playing' ====
+2025-10-14 15:40:30 | INFO | automation | ==== Starting API Test for Rating Filter ====
+2025-10-14 15:40:30 | INFO | automation | Request URL: https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&release_date.gte=1900-01-01&release_date.lte=2025-12-31&vote_average.gte=5&vote_average.lte=5&page=1&api_key=add494e96808c55b3ee7f940c9d5e5b6
+2025-10-14 15:40:30 | INFO | automation | Response Status: 200
+2025-10-14 15:40:30 | INFO | automation | Total Movies Returned: 20
+2025-10-14 15:40:30 | INFO | automation | Movie: Lubuk | Vote: 5.0
+2025-10-14 15:40:30 | INFO | automation | Movie: Beasts Cage | Vote: 5.0
+2025-10-14 15:40:30 | INFO | automation | Movie: Homo Argentum | Vote: 5.0
+2025-10-14 15:40:30 | INFO | automation | Movie: Favorite Concubine | Vote: 5.0
+2025-10-14 15:40:30 | INFO | automation | Movie: The Astronaut | Vote: 5.0
+2025-10-14 15:40:30 | INFO | automation | Movie: Molester Diary: A Man Who Kept Stroking Ass 3 | Vote: 5.0
+2025-10-14 15:40:30 | INFO | automation | Movie: Bosomy Mom 2 | Vote: 5.0
+2025-10-14 15:40:30 | INFO | automation | Movie: The Story of Ong-nyeo | Vote: 5.0
+2025-10-14 15:40:30 | INFO | automation | Movie: Acquitted by Faith | Vote: 5.0
+2025-10-14 15:40:30 | INFO | automation | Movie: Ungol | Vote: 5.0
+2025-10-14 15:40:30 | INFO | automation | Movie: Jinkx Monsoon: Red Head Redemption | Vote: 5.0
+2025-10-14 15:40:30 | INFO | automation | Movie: Axemas 2: Blood Slay | Vote: 5.0
+2025-10-14 15:40:30 | INFO | automation | Movie: The Devil Is Busy | Vote: 4.0
+2025-10-14 15:40:30 | INFO | automation | Movie: Control Room | Vote: 5.0
+2025-10-14 15:40:30 | INFO | automation | Movie: Swapping: My Friend's Wife 2 | Vote: 5.0
+2025-10-14 15:40:30 | INFO | automation | Movie: The Monster of Highgate Ponds | Vote: 5.0
+2025-10-14 15:40:30 | INFO | automation | Movie: The Oldest Profession | Vote: 5.0
+2025-10-14 15:40:30 | INFO | automation | Movie: Sorceress | Vote: 5.0
+2025-10-14 15:40:30 | INFO | automation | Movie: Snake Skin | Vote: 5.0
+2025-10-14 15:40:30 | INFO | automation | Movie: Stealing Lust | Vote: 5.0
+2025-10-14 15:40:30 | INFO | automation | ==== API Test Passed for Rating Filter ====
+
+2025-10-14 15:40:30 | INFO | automation | ==== Starting Year Range Test: 2000-2010 ====
+2025-10-14 15:40:31 | INFO | automation | Request URL: https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&release_date.gte=2000-01-01&release_date.lte=2010-12-31&vote_average.gte=0&vote_average.lte=5&page=1&api_key=add494e96808c55b3ee7f940c9d5e5b6
+2025-10-14 15:40:31 | INFO | automation | Response Status: 200
+2025-10-14 15:40:31 | INFO | automation | Movies Found: 20
+2025-10-14 15:40:31 | ERROR | automation | Assertion failed: (1989) is not in range
+assert 2000 <= 1989
+2025-10-14 15:40:31 | INFO | automation | ==== Starting Year Range Test: 2015-2025 ====
+2025-10-14 15:40:32 | INFO | automation | Request URL: https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&release_date.gte=2015-01-01&release_date.lte=2025-12-31&vote_average.gte=0&vote_average.lte=5&page=1&api_key=add494e96808c55b3ee7f940c9d5e5b6
+2025-10-14 15:40:32 | INFO | automation | Response Status: 200
+2025-10-14 15:40:32 | INFO | automation | Movies Found: 20
+2025-10-14 15:40:32 | INFO | automation | ==== API Year Range Test Passed for 2015-2025 ====
+
+2025-10-14 15:40:32 | INFO | automation | ==== Starting Pagination Test for Page 1 ====
+2025-10-14 15:40:33 | INFO | automation | Step 3: Validating 'results' in response JSON
+2025-10-14 15:40:33 | INFO | automation | ==== Pagination Test Passed for Page 1 ====
+
+2025-10-14 15:40:33 | INFO | automation | ==== Starting Pagination Test for Page 2 ====
+2025-10-14 15:40:33 | INFO | automation | Step 3: Validating 'results' in response JSON
+2025-10-14 15:40:33 | INFO | automation | ==== Pagination Test Passed for Page 2 ====
+
+2025-10-14 15:40:33 | INFO | automation | ==== Starting Pagination Test for Page 3 ====
+2025-10-14 15:40:34 | INFO | automation | Step 3: Validating 'results' in response JSON
+2025-10-14 15:40:34 | INFO | automation | ==== Pagination Test Passed for Page 3 ====
+
+2025-10-14 15:40:34 | INFO | automation | ==== Starting Pagination Test for Page 4 ====
+2025-10-14 15:40:35 | INFO | automation | Step 3: Validating 'results' in response JSON
+2025-10-14 15:40:35 | INFO | automation | ==== Pagination Test Passed for Page 4 ====
+
+2025-10-14 15:40:43 | INFO | HomePage | Selecting category: Popular
+2025-10-14 15:40:44 | INFO | HomePage | Clicked on category: Popular
+2025-10-14 15:40:44 | INFO | HomePage | Found 20 movie titles: ['The Conjuring: Last Rites', 'The Lost Princess', 'The Toxic Avenger Unrated', 'Demon Slayer: Kimetsu no Yaiba Infinity Castle', 'War of the Worlds'] ...
+2025-10-14 15:40:54 | INFO | HomePage | Selecting category: Trending
+2025-10-14 15:41:05 | ERROR | HomePage | Error selecting category 'Trending': Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x126fea3+66515]
+	GetHandleVerifier [0x0x126fee4+66580]
+	(No symbol) [0x0x105dc48]
+	(No symbol) [0x0x10a8704]
+	(No symbol) [0x0x10a8aab]
+	(No symbol) [0x0x10ef482]
+	(No symbol) [0x0x10cb214]
+	(No symbol) [0x0x10ecba7]
+	(No symbol) [0x0x10cafc6]
+	(No symbol) [0x0x109c2ca]
+	(No symbol) [0x0x109d154]
+	GetHandleVerifier [0x0x14c73d3+2521347]
+	GetHandleVerifier [0x0x14c2353+2500739]
+	GetHandleVerifier [0x0x1297cf4+229924]
+	GetHandleVerifier [0x0x1288258+165768]
+	GetHandleVerifier [0x0x128ed0d+193085]
+	GetHandleVerifier [0x0x12781b8+100072]
+	GetHandleVerifier [0x0x1278350+100480]
+	GetHandleVerifier [0x0x126260a+11066]
+	BaseThreadInitThunk [0x0x75125d49+25]
+	RtlInitializeExceptionChain [0x0x7744d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7744d661+561]
+
+2025-10-14 15:41:15 | INFO | HomePage | Selecting category: Newest
+2025-10-14 15:41:15 | INFO | HomePage | Clicked on category: Newest
+2025-10-14 15:41:16 | INFO | HomePage | Found 20 movie titles: ['The Conjuring: Last Rites', 'The Toxic Avenger Unrated', 'Demon Slayer: Kimetsu no Yaiba Infinity Castle', 'Play Dirty', 'HIM'] ...
+2025-10-14 15:41:25 | INFO | HomePage | Selecting category: Top rated
+2025-10-14 15:41:25 | INFO | HomePage | Clicked on category: Top rated
+2025-10-14 15:41:26 | INFO | HomePage | Found 20 movie titles: ['The Shawshank Redemption', 'The Godfather', 'The Godfather Part II', "Schindler's List", '12 Angry Men'] ...
+2025-10-14 15:41:37 | INFO | HomePage | Selected type: Movie
+2025-10-14 15:41:37 | INFO | HomePage | Currently selected type: Movie
+2025-10-14 15:41:47 | INFO | HomePage | Selected type: TV Shows
+2025-10-14 15:41:47 | INFO | HomePage | Currently selected type: TV Shows
+2025-10-14 15:41:56 | INFO | HomePage | Year range selected: 1900-2024
+2025-10-14 15:41:56 | INFO | HomePage | Selected start year: 1900
+2025-10-14 15:41:56 | INFO | HomePage | Selected end year: 2024
+2025-10-14 15:41:57 | INFO | HomePage | Extracted years: ['2025', '2025', '2025', '2025', '2025'] ...
+2025-10-14 15:42:07 | INFO | HomePage | Year range selected: 2000-2020
+2025-10-14 15:42:07 | INFO | HomePage | Selected start year: 2000
+2025-10-14 15:42:07 | INFO | HomePage | Selected end year: 2020
+2025-10-14 15:42:08 | INFO | HomePage | Extracted years: ['2008', '2020', '2015', '2020', '2017'] ...
+2025-10-14 15:42:17 | INFO | HomePage | Selected rating: 1 stars
+2025-10-14 15:42:27 | INFO | HomePage | Selected rating: 2 stars
+2025-10-14 15:42:36 | INFO | HomePage | Selected genre: Action
+2025-10-14 15:42:47 | ERROR | HomePage | Error selecting genre 'Action': Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x126fea3+66515]
+	GetHandleVerifier [0x0x126fee4+66580]
+	(No symbol) [0x0x105dc48]
+	(No symbol) [0x0x10a8704]
+	(No symbol) [0x0x10a8aab]
+	(No symbol) [0x0x10ef482]
+	(No symbol) [0x0x10cb214]
+	(No symbol) [0x0x10ecba7]
+	(No symbol) [0x0x10cafc6]
+	(No symbol) [0x0x109c2ca]
+	(No symbol) [0x0x109d154]
+	GetHandleVerifier [0x0x14c73d3+2521347]
+	GetHandleVerifier [0x0x14c2353+2500739]
+	GetHandleVerifier [0x0x1297cf4+229924]
+	GetHandleVerifier [0x0x1288258+165768]
+	GetHandleVerifier [0x0x128ed0d+193085]
+	GetHandleVerifier [0x0x12781b8+100072]
+	GetHandleVerifier [0x0x1278350+100480]
+	GetHandleVerifier [0x0x126260a+11066]
+	BaseThreadInitThunk [0x0x75125d49+25]
+	RtlInitializeExceptionChain [0x0x7744d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7744d661+561]
+
+2025-10-14 15:43:48 | INFO | HomePage | Selected page: 53019
+2025-10-14 15:44:00 | ERROR | HomePage | Error getting titles: Message: 
+
+2025-10-14 15:52:53 | INFO | automation | ==== Starting API Test for Category: popular ====
+2025-10-14 15:52:53 | INFO | automation | Step 1: Sending GET request to https://api.themoviedb.org/3/movie/popular?page=1&api_key=add494e96808c55b3ee7f940c9d5e5b6
+2025-10-14 15:52:53 | ERROR | automation | Unexpected error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-10-14 15:52:54 | INFO | automation | ==== Starting API Test for Category: top_rated ====
+2025-10-14 15:52:54 | INFO | automation | Step 1: Sending GET request to https://api.themoviedb.org/3/movie/top_rated?page=1&api_key=add494e96808c55b3ee7f940c9d5e5b6
+2025-10-14 15:52:55 | INFO | automation | Response Code: 200
+2025-10-14 15:52:55 | INFO | automation | Step 2: Parsing JSON response
+2025-10-14 15:52:55 | INFO | automation | Step 3: Validating presence of 'results' key
+2025-10-14 15:52:55 | INFO | automation | Step 4: Number of movies returned: 20
+2025-10-14 15:52:55 | INFO | automation | Step 5: Validating fields for first 5 movies
+2025-10-14 15:52:55 | INFO | automation | Validating Movie 1: The Shawshank Redemption
+2025-10-14 15:52:55 | INFO | automation | Validating Movie 2: The Godfather
+2025-10-14 15:52:55 | INFO | automation | Validating Movie 3: The Godfather Part II
+2025-10-14 15:52:55 | INFO | automation | Validating Movie 4: Schindler's List
+2025-10-14 15:52:55 | INFO | automation | Validating Movie 5: 12 Angry Men
+2025-10-14 15:52:55 | INFO | automation | ==== API Test Passed for 'top_rated' ====
+2025-10-14 15:52:55 | INFO | automation | ==== Starting API Test for Category: now_playing ====
+2025-10-14 15:52:55 | INFO | automation | Step 1: Sending GET request to https://api.themoviedb.org/3/movie/now_playing?page=1&api_key=add494e96808c55b3ee7f940c9d5e5b6
+2025-10-14 15:52:55 | ERROR | automation | Unexpected error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-10-14 15:52:55 | INFO | automation | ==== Starting API Test for Rating Filter ====
+2025-10-14 15:52:56 | ERROR | automation | Unexpected error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-10-14 15:52:56 | INFO | automation | ==== Starting Year Range Test: 2000-2010 ====
+2025-10-14 15:52:56 | ERROR | automation | Unexpected error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-10-14 15:52:56 | INFO | automation | ==== Starting Year Range Test: 2015-2025 ====
+2025-10-14 15:52:57 | ERROR | automation | Unexpected error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-10-14 15:52:57 | INFO | automation | ==== Starting Pagination Test for Page 1 ====
+2025-10-14 15:52:58 | ERROR | automation | Unexpected error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-10-14 15:52:58 | INFO | automation | ==== Starting Pagination Test for Page 2 ====
+2025-10-14 15:52:58 | INFO | automation | Step 3: Validating 'results' in response JSON
+2025-10-14 15:52:58 | INFO | automation | ==== Pagination Test Passed for Page 2 ====
+
+2025-10-14 15:52:58 | INFO | automation | ==== Starting Pagination Test for Page 3 ====
+2025-10-14 15:52:59 | ERROR | automation | Unexpected error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-10-14 15:52:59 | INFO | automation | ==== Starting Pagination Test for Page 4 ====
+2025-10-14 15:53:00 | INFO | automation | Step 3: Validating 'results' in response JSON
+2025-10-14 15:53:00 | INFO | automation | ==== Pagination Test Passed for Page 4 ====
+
+2025-10-14 15:53:10 | INFO | HomePage | Selecting category: Popular
+2025-10-14 15:53:10 | INFO | HomePage | Clicked on category: Popular
+2025-10-14 15:53:11 | INFO | HomePage | Found 20 movie titles: ['The Conjuring: Last Rites', 'The Lost Princess', 'The Toxic Avenger Unrated', 'Demon Slayer: Kimetsu no Yaiba Infinity Castle', 'War of the Worlds'] ...
+2025-10-14 15:53:21 | INFO | HomePage | Selecting category: Trending
+2025-10-14 15:53:32 | ERROR | HomePage | Error selecting category 'Trending': Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xf2fea3+66515]
+	GetHandleVerifier [0x0xf2fee4+66580]
+	(No symbol) [0x0xd1dc48]
+	(No symbol) [0x0xd68704]
+	(No symbol) [0x0xd68aab]
+	(No symbol) [0x0xdaf482]
+	(No symbol) [0x0xd8b214]
+	(No symbol) [0x0xdacba7]
+	(No symbol) [0x0xd8afc6]
+	(No symbol) [0x0xd5c2ca]
+	(No symbol) [0x0xd5d154]
+	GetHandleVerifier [0x0x11873d3+2521347]
+	GetHandleVerifier [0x0x1182353+2500739]
+	GetHandleVerifier [0x0xf57cf4+229924]
+	GetHandleVerifier [0x0xf48258+165768]
+	GetHandleVerifier [0x0xf4ed0d+193085]
+	GetHandleVerifier [0x0xf381b8+100072]
+	GetHandleVerifier [0x0xf38350+100480]
+	GetHandleVerifier [0x0xf2260a+11066]
+	BaseThreadInitThunk [0x0x75125d49+25]
+	RtlInitializeExceptionChain [0x0x7744d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7744d661+561]
+
+2025-10-14 15:53:42 | INFO | HomePage | Selecting category: Newest
+2025-10-14 15:53:42 | INFO | HomePage | Clicked on category: Newest
+2025-10-14 15:53:52 | INFO | HomePage | Selecting category: Top rated
+2025-10-14 15:53:52 | INFO | HomePage | Clicked on category: Top rated
+2025-10-14 15:53:53 | INFO | HomePage | Found 20 movie titles: ['The Shawshank Redemption', 'The Godfather', 'The Godfather Part II', "Schindler's List", '12 Angry Men'] ...
+2025-10-14 15:54:02 | INFO | HomePage | Selected type: Movie
+2025-10-14 15:54:02 | INFO | HomePage | Currently selected type: Movie
+2025-10-14 15:54:12 | INFO | HomePage | Selected type: TV Shows
+2025-10-14 15:54:12 | INFO | HomePage | Currently selected type: TV Shows
+2025-10-14 15:54:22 | INFO | HomePage | Year range selected: 1900-2024
+2025-10-14 15:54:22 | INFO | HomePage | Selected start year: 1900
+2025-10-14 15:54:22 | INFO | HomePage | Selected end year: 2024
+2025-10-14 15:54:23 | INFO | HomePage | Extracted years: ['2025', '2025', '2025', '2025', '2025'] ...
+2025-10-14 15:54:33 | INFO | HomePage | Year range selected: 2000-2020
+2025-10-14 15:54:33 | INFO | HomePage | Selected start year: 2000
+2025-10-14 15:54:33 | INFO | HomePage | Selected end year: 2020
+2025-10-14 15:54:33 | INFO | HomePage | Extracted years: ['2008', '2020', '2015', '2020', '2017'] ...
+2025-10-14 15:54:43 | INFO | HomePage | Selected rating: 1 stars
+2025-10-14 15:54:52 | INFO | HomePage | Selected rating: 2 stars
+2025-10-14 15:55:02 | INFO | HomePage | Selected genre: Action
+2025-10-14 15:55:13 | ERROR | HomePage | Error selecting genre 'Action': Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xf2fea3+66515]
+	GetHandleVerifier [0x0xf2fee4+66580]
+	(No symbol) [0x0xd1dc48]
+	(No symbol) [0x0xd68704]
+	(No symbol) [0x0xd68aab]
+	(No symbol) [0x0xdaf482]
+	(No symbol) [0x0xd8b214]
+	(No symbol) [0x0xdacba7]
+	(No symbol) [0x0xd8afc6]
+	(No symbol) [0x0xd5c2ca]
+	(No symbol) [0x0xd5d154]
+	GetHandleVerifier [0x0x11873d3+2521347]
+	GetHandleVerifier [0x0x1182353+2500739]
+	GetHandleVerifier [0x0xf57cf4+229924]
+	GetHandleVerifier [0x0xf48258+165768]
+	GetHandleVerifier [0x0xf4ed0d+193085]
+	GetHandleVerifier [0x0xf381b8+100072]
+	GetHandleVerifier [0x0xf38350+100480]
+	GetHandleVerifier [0x0xf2260a+11066]
+	BaseThreadInitThunk [0x0x75125d49+25]
+	RtlInitializeExceptionChain [0x0x7744d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7744d661+561]
+
+2025-10-14 15:56:43 | INFO | HomePage | Selected page: 53019
+2025-10-14 15:56:54 | ERROR | HomePage | Error getting titles: Message: 
+
+2025-10-14 16:04:02 | INFO | automation | ==== Starting API Test for Category: popular ====
+2025-10-14 16:04:02 | INFO | automation | Step 1: Sending GET request to https://api.themoviedb.org/3/movie/popular?page=1&api_key=add494e96808c55b3ee7f940c9d5e5b6
+2025-10-14 16:04:03 | INFO | automation | Response Code: 200
+2025-10-14 16:04:03 | INFO | automation | Step 2: Parsing JSON response
+2025-10-14 16:04:03 | INFO | automation | Step 3: Validating presence of 'results' key
+2025-10-14 16:04:03 | INFO | automation | Step 4: Number of movies returned: 20
+2025-10-14 16:04:03 | INFO | automation | Step 5: Validating fields for first 5 movies
+2025-10-14 16:04:03 | INFO | automation | Validating Movie 1: The Conjuring: Last Rites
+2025-10-14 16:04:03 | INFO | automation | Validating Movie 2: The Lost Princess
+2025-10-14 16:04:03 | INFO | automation | Validating Movie 3: The Toxic Avenger Unrated
+2025-10-14 16:04:03 | INFO | automation | Validating Movie 4: Demon Slayer: Kimetsu no Yaiba Infinity Castle
+2025-10-14 16:04:03 | INFO | automation | Validating Movie 5: War of the Worlds
+2025-10-14 16:04:03 | INFO | automation | ==== API Test Passed for 'popular' ====
+2025-10-14 16:04:03 | INFO | automation | ==== Starting API Test for Category: top_rated ====
+2025-10-14 16:04:03 | INFO | automation | Step 1: Sending GET request to https://api.themoviedb.org/3/movie/top_rated?page=1&api_key=add494e96808c55b3ee7f940c9d5e5b6
+2025-10-14 16:04:04 | INFO | automation | Response Code: 200
+2025-10-14 16:04:04 | INFO | automation | Step 2: Parsing JSON response
+2025-10-14 16:04:04 | INFO | automation | Step 3: Validating presence of 'results' key
+2025-10-14 16:04:04 | INFO | automation | Step 4: Number of movies returned: 20
+2025-10-14 16:04:04 | INFO | automation | Step 5: Validating fields for first 5 movies
+2025-10-14 16:04:04 | INFO | automation | Validating Movie 1: The Shawshank Redemption
+2025-10-14 16:04:04 | INFO | automation | Validating Movie 2: The Godfather
+2025-10-14 16:04:04 | INFO | automation | Validating Movie 3: The Godfather Part II
+2025-10-14 16:04:04 | INFO | automation | Validating Movie 4: Schindler's List
+2025-10-14 16:04:04 | INFO | automation | Validating Movie 5: 12 Angry Men
+2025-10-14 16:04:04 | INFO | automation | ==== API Test Passed for 'top_rated' ====
+2025-10-14 16:04:04 | INFO | automation | ==== Starting API Test for Category: now_playing ====
+2025-10-14 16:04:04 | INFO | automation | Step 1: Sending GET request to https://api.themoviedb.org/3/movie/now_playing?page=1&api_key=add494e96808c55b3ee7f940c9d5e5b6
+2025-10-14 16:04:05 | INFO | automation | Response Code: 200
+2025-10-14 16:04:05 | INFO | automation | Step 2: Parsing JSON response
+2025-10-14 16:04:05 | INFO | automation | Step 3: Validating presence of 'results' key
+2025-10-14 16:04:05 | INFO | automation | Step 4: Number of movies returned: 20
+2025-10-14 16:04:05 | INFO | automation | Step 5: Validating fields for first 5 movies
+2025-10-14 16:04:05 | INFO | automation | Validating Movie 1: The Conjuring: Last Rites
+2025-10-14 16:04:05 | INFO | automation | Validating Movie 2: The Toxic Avenger Unrated
+2025-10-14 16:04:05 | INFO | automation | Validating Movie 3: Demon Slayer: Kimetsu no Yaiba Infinity Castle
+2025-10-14 16:04:05 | INFO | automation | Validating Movie 4: Play Dirty
+2025-10-14 16:04:05 | INFO | automation | Validating Movie 5: HIM
+2025-10-14 16:04:05 | INFO | automation | ==== API Test Passed for 'now_playing' ====
+2025-10-14 16:04:05 | INFO | automation | ==== Starting API Test for Rating Filter ====
+2025-10-14 16:04:05 | INFO | automation | Request URL: https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&release_date.gte=1900-01-01&release_date.lte=2025-12-31&vote_average.gte=5&vote_average.lte=5&page=1&api_key=add494e96808c55b3ee7f940c9d5e5b6
+2025-10-14 16:04:05 | INFO | automation | Response Status: 200
+2025-10-14 16:04:05 | INFO | automation | Total Movies Returned: 20
+2025-10-14 16:04:05 | INFO | automation | Movie: Lubuk | Vote: 5.0
+2025-10-14 16:04:05 | INFO | automation | Movie: Beasts Cage | Vote: 5.0
+2025-10-14 16:04:05 | INFO | automation | Movie: Homo Argentum | Vote: 5.0
+2025-10-14 16:04:05 | INFO | automation | Movie: Favorite Concubine | Vote: 5.0
+2025-10-14 16:04:05 | INFO | automation | Movie: The Astronaut | Vote: 5.0
+2025-10-14 16:04:05 | INFO | automation | Movie: Molester Diary: A Man Who Kept Stroking Ass 3 | Vote: 5.0
+2025-10-14 16:04:05 | INFO | automation | Movie: Bosomy Mom 2 | Vote: 5.0
+2025-10-14 16:04:05 | INFO | automation | Movie: The Story of Ong-nyeo | Vote: 5.0
+2025-10-14 16:04:05 | INFO | automation | Movie: Acquitted by Faith | Vote: 5.0
+2025-10-14 16:04:05 | INFO | automation | Movie: Ungol | Vote: 5.0
+2025-10-14 16:04:05 | INFO | automation | Movie: Jinkx Monsoon: Red Head Redemption | Vote: 5.0
+2025-10-14 16:04:05 | INFO | automation | Movie: Axemas 2: Blood Slay | Vote: 5.0
+2025-10-14 16:04:05 | INFO | automation | Movie: The Devil Is Busy | Vote: 4.0
+2025-10-14 16:04:05 | INFO | automation | Movie: Control Room | Vote: 5.0
+2025-10-14 16:04:05 | INFO | automation | Movie: Swapping: My Friend's Wife 2 | Vote: 5.0
+2025-10-14 16:04:05 | INFO | automation | Movie: The Monster of Highgate Ponds | Vote: 5.0
+2025-10-14 16:04:05 | INFO | automation | Movie: The Oldest Profession | Vote: 5.0
+2025-10-14 16:04:05 | INFO | automation | Movie: Sorceress | Vote: 5.0
+2025-10-14 16:04:05 | INFO | automation | Movie: Snake Skin | Vote: 5.0
+2025-10-14 16:04:05 | INFO | automation | Movie: Stealing Lust | Vote: 5.0
+2025-10-14 16:04:05 | INFO | automation | ==== API Test Passed for Rating Filter ====
+
+2025-10-14 16:04:05 | INFO | automation | ==== Starting Year Range Test: 2000-2010 ====
+2025-10-14 16:04:06 | INFO | automation | Request URL: https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&release_date.gte=2000-01-01&release_date.lte=2010-12-31&vote_average.gte=0&vote_average.lte=5&page=1&api_key=add494e96808c55b3ee7f940c9d5e5b6
+2025-10-14 16:04:06 | INFO | automation | Response Status: 200
+2025-10-14 16:04:06 | INFO | automation | Movies Found: 20
+2025-10-14 16:04:06 | ERROR | automation | Assertion failed: (1989) is not in range
+assert 2000 <= 1989
+2025-10-14 16:04:06 | INFO | automation | ==== Starting Year Range Test: 2015-2025 ====
+2025-10-14 16:04:07 | INFO | automation | Request URL: https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&release_date.gte=2015-01-01&release_date.lte=2025-12-31&vote_average.gte=0&vote_average.lte=5&page=1&api_key=add494e96808c55b3ee7f940c9d5e5b6
+2025-10-14 16:04:07 | INFO | automation | Response Status: 200
+2025-10-14 16:04:07 | INFO | automation | Movies Found: 20
+2025-10-14 16:04:07 | INFO | automation | ==== API Year Range Test Passed for 2015-2025 ====
+
+2025-10-14 16:04:07 | INFO | automation | ==== Starting Pagination Test for Page 1 ====
+2025-10-14 16:04:08 | INFO | automation | Step 3: Validating 'results' in response JSON
+2025-10-14 16:04:08 | INFO | automation | ==== Pagination Test Passed for Page 1 ====
+
+2025-10-14 16:04:08 | INFO | automation | ==== Starting Pagination Test for Page 2 ====
+2025-10-14 16:04:09 | INFO | automation | Step 3: Validating 'results' in response JSON
+2025-10-14 16:04:09 | INFO | automation | ==== Pagination Test Passed for Page 2 ====
+
+2025-10-14 16:04:09 | INFO | automation | ==== Starting Pagination Test for Page 3 ====
+2025-10-14 16:04:10 | INFO | automation | Step 3: Validating 'results' in response JSON
+2025-10-14 16:04:10 | INFO | automation | ==== Pagination Test Passed for Page 3 ====
+
+2025-10-14 16:04:10 | INFO | automation | ==== Starting Pagination Test for Page 4 ====
+2025-10-14 16:04:10 | INFO | automation | Step 3: Validating 'results' in response JSON
+2025-10-14 16:04:10 | INFO | automation | ==== Pagination Test Passed for Page 4 ====
+
+2025-10-14 16:04:20 | INFO | HomePage | Selecting category: Popular
+2025-10-14 16:04:20 | INFO | HomePage | Clicked on category: Popular
+2025-10-14 16:04:21 | INFO | HomePage | Found 20 movie titles: ['The Conjuring: Last Rites', 'The Lost Princess', 'The Toxic Avenger Unrated', 'Demon Slayer: Kimetsu no Yaiba Infinity Castle', 'War of the Worlds'] ...
+2025-10-14 16:04:30 | INFO | HomePage | Selecting category: Trending
+2025-10-14 16:04:41 | ERROR | HomePage | Error selecting category 'Trending': Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xb8fea3+66515]
+	GetHandleVerifier [0x0xb8fee4+66580]
+	(No symbol) [0x0x97dc48]
+	(No symbol) [0x0x9c8704]
+	(No symbol) [0x0x9c8aab]
+	(No symbol) [0x0xa0f482]
+	(No symbol) [0x0x9eb214]
+	(No symbol) [0x0xa0cba7]
+	(No symbol) [0x0x9eafc6]
+	(No symbol) [0x0x9bc2ca]
+	(No symbol) [0x0x9bd154]
+	GetHandleVerifier [0x0xde73d3+2521347]
+	GetHandleVerifier [0x0xde2353+2500739]
+	GetHandleVerifier [0x0xbb7cf4+229924]
+	GetHandleVerifier [0x0xba8258+165768]
+	GetHandleVerifier [0x0xbaed0d+193085]
+	GetHandleVerifier [0x0xb981b8+100072]
+	GetHandleVerifier [0x0xb98350+100480]
+	GetHandleVerifier [0x0xb8260a+11066]
+	BaseThreadInitThunk [0x0x75125d49+25]
+	RtlInitializeExceptionChain [0x0x7744d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7744d661+561]
+
+2025-10-14 16:04:51 | INFO | HomePage | Selecting category: Newest
+2025-10-14 16:04:51 | INFO | HomePage | Clicked on category: Newest
+2025-10-14 16:04:52 | INFO | HomePage | Found 20 movie titles: ['The Conjuring: Last Rites', 'The Toxic Avenger Unrated', 'Demon Slayer: Kimetsu no Yaiba Infinity Castle', 'Play Dirty', 'HIM'] ...
+2025-10-14 16:05:01 | INFO | HomePage | Selecting category: Top rated
+2025-10-14 16:05:01 | INFO | HomePage | Clicked on category: Top rated
+2025-10-14 16:05:02 | INFO | HomePage | Found 20 movie titles: ['The Shawshank Redemption', 'The Godfather', 'The Godfather Part II', "Schindler's List", '12 Angry Men'] ...
+2025-10-14 16:05:12 | INFO | HomePage | Selected type: Movie
+2025-10-14 16:05:12 | INFO | HomePage | Currently selected type: Movie
+2025-10-14 16:05:21 | INFO | HomePage | Selected type: TV Shows
+2025-10-14 16:05:21 | INFO | HomePage | Currently selected type: TV Shows
+2025-10-14 16:05:31 | INFO | HomePage | Year range selected: 1900-2024
+2025-10-14 16:05:31 | INFO | HomePage | Selected start year: 1900
+2025-10-14 16:05:31 | INFO | HomePage | Selected end year: 2024
+2025-10-14 16:05:32 | INFO | HomePage | Extracted years: ['2025', '2025', '2025', '2025', '2025'] ...
+2025-10-14 16:05:42 | INFO | HomePage | Year range selected: 2000-2020
+2025-10-14 16:05:42 | INFO | HomePage | Selected start year: 2000
+2025-10-14 16:05:42 | INFO | HomePage | Selected end year: 2020
+2025-10-14 16:05:43 | INFO | HomePage | Extracted years: ['2008', '2020', '2015', '2020', '2017'] ...
+2025-10-14 16:05:52 | INFO | HomePage | Selected rating: 1 stars
+2025-10-14 16:06:01 | INFO | HomePage | Selected rating: 2 stars
+2025-10-14 16:06:11 | INFO | HomePage | Selected genre: Action
+2025-10-14 16:06:22 | ERROR | HomePage | Error selecting genre 'Action': Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xb8fea3+66515]
+	GetHandleVerifier [0x0xb8fee4+66580]
+	(No symbol) [0x0x97dc48]
+	(No symbol) [0x0x9c8704]
+	(No symbol) [0x0x9c8aab]
+	(No symbol) [0x0xa0f482]
+	(No symbol) [0x0x9eb214]
+	(No symbol) [0x0xa0cba7]
+	(No symbol) [0x0x9eafc6]
+	(No symbol) [0x0x9bc2ca]
+	(No symbol) [0x0x9bd154]
+	GetHandleVerifier [0x0xde73d3+2521347]
+	GetHandleVerifier [0x0xde2353+2500739]
+	GetHandleVerifier [0x0xbb7cf4+229924]
+	GetHandleVerifier [0x0xba8258+165768]
+	GetHandleVerifier [0x0xbaed0d+193085]
+	GetHandleVerifier [0x0xb981b8+100072]
+	GetHandleVerifier [0x0xb98350+100480]
+	GetHandleVerifier [0x0xb8260a+11066]
+	BaseThreadInitThunk [0x0x75125d49+25]
+	RtlInitializeExceptionChain [0x0x7744d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7744d661+561]
+
+2025-10-14 16:06:32 | INFO | HomePage | Pagination is visible.
+2025-10-14 16:06:32 | INFO | HomePage | Clicked next page button.
+2025-10-14 16:06:32 | INFO | HomePage | Currently selected page: 2
+2025-10-14 16:08:11 | INFO | HomePage | Selected page: 53019
+2025-10-14 16:08:11 | ERROR | HomePage | Error getting titles: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.67)
+Stacktrace:
+	GetHandleVerifier [0x0xb8fea3+66515]
+	GetHandleVerifier [0x0xb8fee4+66580]
+	(No symbol) [0x0x97dc48]
+	(No symbol) [0x0x984617]
+	(No symbol) [0x0x9869d4]
+	(No symbol) [0x0x986a68]
+	(No symbol) [0x0x9c31de]
+	(No symbol) [0x0x9eb1cc]
+	(No symbol) [0x0x9bdb74]
+	(No symbol) [0x0x9eb384]
+	(No symbol) [0x0xa0cba7]
+	(No symbol) [0x0x9eafc6]
+	(No symbol) [0x0x9bc2ca]
+	(No symbol) [0x0x9bd154]
+	GetHandleVerifier [0x0xde73d3+2521347]
+	GetHandleVerifier [0x0xde2353+2500739]
+	GetHandleVerifier [0x0xbb7cf4+229924]
+	GetHandleVerifier [0x0xba8258+165768]
+	GetHandleVerifier [0x0xbaed0d+193085]
+	GetHandleVerifier [0x0xb981b8+100072]
+	GetHandleVerifier [0x0xb98350+100480]
+	GetHandleVerifier [0x0xb8260a+11066]
+	BaseThreadInitThunk [0x0x75125d49+25]
+	RtlInitializeExceptionChain [0x0x7744d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7744d661+561]
+
+2025-10-14 16:15:46 | INFO | automation | ==== Starting API Test for Category: popular ====
+2025-10-14 16:15:46 | INFO | automation | Step 1: Sending GET request to https://api.themoviedb.org/3/movie/popular?page=1&api_key=add494e96808c55b3ee7f940c9d5e5b6
+2025-10-14 16:15:47 | INFO | automation | Response Code: 200
+2025-10-14 16:15:47 | INFO | automation | Step 2: Parsing JSON response
+2025-10-14 16:15:47 | INFO | automation | Step 3: Validating presence of 'results' key
+2025-10-14 16:15:47 | INFO | automation | Step 4: Number of movies returned: 20
+2025-10-14 16:15:47 | INFO | automation | Step 5: Validating fields for first 5 movies
+2025-10-14 16:15:47 | INFO | automation | Validating Movie 1: The Conjuring: Last Rites
+2025-10-14 16:15:47 | INFO | automation | Validating Movie 2: The Lost Princess
+2025-10-14 16:15:47 | INFO | automation | Validating Movie 3: The Toxic Avenger Unrated
+2025-10-14 16:15:47 | INFO | automation | Validating Movie 4: Demon Slayer: Kimetsu no Yaiba Infinity Castle
+2025-10-14 16:15:47 | INFO | automation | Validating Movie 5: War of the Worlds
+2025-10-14 16:15:47 | INFO | automation | ==== API Test Passed for 'popular' ====
+2025-10-14 16:15:47 | INFO | automation | ==== Starting API Test for Category: top_rated ====
+2025-10-14 16:15:47 | INFO | automation | Step 1: Sending GET request to https://api.themoviedb.org/3/movie/top_rated?page=1&api_key=add494e96808c55b3ee7f940c9d5e5b6
+2025-10-14 16:15:47 | INFO | automation | Response Code: 200
+2025-10-14 16:15:47 | INFO | automation | Step 2: Parsing JSON response
+2025-10-14 16:15:47 | INFO | automation | Step 3: Validating presence of 'results' key
+2025-10-14 16:15:47 | INFO | automation | Step 4: Number of movies returned: 20
+2025-10-14 16:15:47 | INFO | automation | Step 5: Validating fields for first 5 movies
+2025-10-14 16:15:47 | INFO | automation | Validating Movie 1: The Shawshank Redemption
+2025-10-14 16:15:47 | INFO | automation | Validating Movie 2: The Godfather
+2025-10-14 16:15:47 | INFO | automation | Validating Movie 3: The Godfather Part II
+2025-10-14 16:15:47 | INFO | automation | Validating Movie 4: Schindler's List
+2025-10-14 16:15:47 | INFO | automation | Validating Movie 5: 12 Angry Men
+2025-10-14 16:15:47 | INFO | automation | ==== API Test Passed for 'top_rated' ====
+2025-10-14 16:15:47 | INFO | automation | ==== Starting API Test for Category: now_playing ====
+2025-10-14 16:15:47 | INFO | automation | Step 1: Sending GET request to https://api.themoviedb.org/3/movie/now_playing?page=1&api_key=add494e96808c55b3ee7f940c9d5e5b6
+2025-10-14 16:15:48 | INFO | automation | Response Code: 200
+2025-10-14 16:15:48 | INFO | automation | Step 2: Parsing JSON response
+2025-10-14 16:15:48 | INFO | automation | Step 3: Validating presence of 'results' key
+2025-10-14 16:15:48 | INFO | automation | Step 4: Number of movies returned: 20
+2025-10-14 16:15:48 | INFO | automation | Step 5: Validating fields for first 5 movies
+2025-10-14 16:15:48 | INFO | automation | Validating Movie 1: The Conjuring: Last Rites
+2025-10-14 16:15:48 | INFO | automation | Validating Movie 2: The Toxic Avenger Unrated
+2025-10-14 16:15:48 | INFO | automation | Validating Movie 3: Demon Slayer: Kimetsu no Yaiba Infinity Castle
+2025-10-14 16:15:48 | INFO | automation | Validating Movie 4: Play Dirty
+2025-10-14 16:15:48 | INFO | automation | Validating Movie 5: HIM
+2025-10-14 16:15:48 | INFO | automation | ==== API Test Passed for 'now_playing' ====
+2025-10-14 16:15:48 | INFO | automation | ==== Starting API Test for Rating Filter ====
+2025-10-14 16:15:49 | INFO | automation | Request URL: https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&release_date.gte=1900-01-01&release_date.lte=2025-12-31&vote_average.gte=5&vote_average.lte=5&page=1&api_key=add494e96808c55b3ee7f940c9d5e5b6
+2025-10-14 16:15:49 | INFO | automation | Response Status: 200
+2025-10-14 16:15:49 | INFO | automation | Total Movies Returned: 20
+2025-10-14 16:15:49 | INFO | automation | Movie: Lubuk | Vote: 5.0
+2025-10-14 16:15:49 | INFO | automation | Movie: Beasts Cage | Vote: 5.0
+2025-10-14 16:15:49 | INFO | automation | Movie: Homo Argentum | Vote: 5.0
+2025-10-14 16:15:49 | INFO | automation | Movie: Favorite Concubine | Vote: 5.0
+2025-10-14 16:15:49 | INFO | automation | Movie: The Astronaut | Vote: 5.0
+2025-10-14 16:15:49 | INFO | automation | Movie: Molester Diary: A Man Who Kept Stroking Ass 3 | Vote: 5.0
+2025-10-14 16:15:49 | INFO | automation | Movie: Bosomy Mom 2 | Vote: 5.0
+2025-10-14 16:15:49 | INFO | automation | Movie: The Story of Ong-nyeo | Vote: 5.0
+2025-10-14 16:15:49 | INFO | automation | Movie: Acquitted by Faith | Vote: 5.0
+2025-10-14 16:15:49 | INFO | automation | Movie: Ungol | Vote: 5.0
+2025-10-14 16:15:49 | INFO | automation | Movie: Jinkx Monsoon: Red Head Redemption | Vote: 5.0
+2025-10-14 16:15:49 | INFO | automation | Movie: Axemas 2: Blood Slay | Vote: 5.0
+2025-10-14 16:15:49 | INFO | automation | Movie: The Devil Is Busy | Vote: 4.0
+2025-10-14 16:15:49 | INFO | automation | Movie: Control Room | Vote: 5.0
+2025-10-14 16:15:49 | INFO | automation | Movie: Swapping: My Friend's Wife 2 | Vote: 5.0
+2025-10-14 16:15:49 | INFO | automation | Movie: The Monster of Highgate Ponds | Vote: 5.0
+2025-10-14 16:15:49 | INFO | automation | Movie: The Oldest Profession | Vote: 5.0
+2025-10-14 16:15:49 | INFO | automation | Movie: Sorceress | Vote: 5.0
+2025-10-14 16:15:49 | INFO | automation | Movie: Snake Skin | Vote: 5.0
+2025-10-14 16:15:49 | INFO | automation | Movie: Stealing Lust | Vote: 5.0
+2025-10-14 16:15:49 | INFO | automation | ==== API Test Passed for Rating Filter ====
+
+2025-10-14 16:15:49 | INFO | automation | ==== Starting Year Range Test: 2000-2010 ====
+2025-10-14 16:15:50 | INFO | automation | Request URL: https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&release_date.gte=2000-01-01&release_date.lte=2010-12-31&vote_average.gte=0&vote_average.lte=5&page=1&api_key=add494e96808c55b3ee7f940c9d5e5b6
+2025-10-14 16:15:50 | INFO | automation | Response Status: 200
+2025-10-14 16:15:50 | INFO | automation | Movies Found: 20
+2025-10-14 16:15:50 | ERROR | automation | Assertion failed: (1989) is not in range
+assert 2000 <= 1989
+2025-10-14 16:15:50 | INFO | automation | ==== Starting Year Range Test: 2015-2025 ====
+2025-10-14 16:15:51 | INFO | automation | Request URL: https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&release_date.gte=2015-01-01&release_date.lte=2025-12-31&vote_average.gte=0&vote_average.lte=5&page=1&api_key=add494e96808c55b3ee7f940c9d5e5b6
+2025-10-14 16:15:51 | INFO | automation | Response Status: 200
+2025-10-14 16:15:51 | INFO | automation | Movies Found: 20
+2025-10-14 16:15:51 | INFO | automation | ==== API Year Range Test Passed for 2015-2025 ====
+
+2025-10-14 16:15:51 | INFO | automation | ==== Starting Pagination Test for Page 1 ====
+2025-10-14 16:15:52 | INFO | automation | Step 3: Validating 'results' in response JSON
+2025-10-14 16:15:52 | INFO | automation | ==== Pagination Test Passed for Page 1 ====
+
+2025-10-14 16:15:52 | INFO | automation | ==== Starting Pagination Test for Page 2 ====
+2025-10-14 16:15:52 | INFO | automation | Step 3: Validating 'results' in response JSON
+2025-10-14 16:15:52 | INFO | automation | ==== Pagination Test Passed for Page 2 ====
+
+2025-10-14 16:15:52 | INFO | automation | ==== Starting Pagination Test for Page 3 ====
+2025-10-14 16:15:53 | INFO | automation | Step 3: Validating 'results' in response JSON
+2025-10-14 16:15:53 | INFO | automation | ==== Pagination Test Passed for Page 3 ====
+
+2025-10-14 16:15:53 | INFO | automation | ==== Starting Pagination Test for Page 4 ====
+2025-10-14 16:15:54 | INFO | automation | Step 3: Validating 'results' in response JSON
+2025-10-14 16:15:54 | INFO | automation | ==== Pagination Test Passed for Page 4 ====
+
+2025-10-14 16:16:02 | INFO | HomePage | Selecting category: Popular
+2025-10-14 16:16:02 | INFO | HomePage | Clicked on category: Popular
+2025-10-14 16:16:03 | INFO | HomePage | Found 20 movie titles: ['The Conjuring: Last Rites', 'The Lost Princess', 'The Toxic Avenger Unrated', 'Demon Slayer: Kimetsu no Yaiba Infinity Castle', 'War of the Worlds'] ...
+2025-10-14 16:16:14 | INFO | HomePage | Selecting category: Trending
+2025-10-14 16:16:25 | ERROR | HomePage | Error selecting category 'Trending': Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x99fea3+66515]
+	GetHandleVerifier [0x0x99fee4+66580]
+	(No symbol) [0x0x78dc48]
+	(No symbol) [0x0x7d8704]
+	(No symbol) [0x0x7d8aab]
+	(No symbol) [0x0x81f482]
+	(No symbol) [0x0x7fb214]
+	(No symbol) [0x0x81cba7]
+	(No symbol) [0x0x7fafc6]
+	(No symbol) [0x0x7cc2ca]
+	(No symbol) [0x0x7cd154]
+	GetHandleVerifier [0x0xbf73d3+2521347]
+	GetHandleVerifier [0x0xbf2353+2500739]
+	GetHandleVerifier [0x0x9c7cf4+229924]
+	GetHandleVerifier [0x0x9b8258+165768]
+	GetHandleVerifier [0x0x9bed0d+193085]
+	GetHandleVerifier [0x0x9a81b8+100072]
+	GetHandleVerifier [0x0x9a8350+100480]
+	GetHandleVerifier [0x0x99260a+11066]
+	BaseThreadInitThunk [0x0x75125d49+25]
+	RtlInitializeExceptionChain [0x0x7744d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7744d661+561]
+
+2025-10-14 16:16:35 | INFO | HomePage | Selecting category: Newest
+2025-10-14 16:16:35 | INFO | HomePage | Clicked on category: Newest
+2025-10-14 16:16:36 | INFO | HomePage | Found 20 movie titles: ['The Conjuring: Last Rites', 'The Toxic Avenger Unrated', 'Demon Slayer: Kimetsu no Yaiba Infinity Castle', 'Play Dirty', 'HIM'] ...
+2025-10-14 16:16:45 | INFO | HomePage | Selecting category: Top rated
+2025-10-14 16:16:45 | INFO | HomePage | Clicked on category: Top rated
+2025-10-14 16:16:46 | INFO | HomePage | Found 20 movie titles: ['The Shawshank Redemption', 'The Godfather', 'The Godfather Part II', "Schindler's List", '12 Angry Men'] ...
+2025-10-14 16:16:56 | INFO | HomePage | Selected type: Movie
+2025-10-14 16:16:56 | INFO | HomePage | Currently selected type: Movie
+2025-10-14 16:17:05 | INFO | HomePage | Selected type: TV Shows
+2025-10-14 16:17:06 | INFO | HomePage | Currently selected type: TV Shows
+2025-10-14 16:17:15 | INFO | HomePage | Year range selected: 1900-2024
+2025-10-14 16:17:15 | INFO | HomePage | Selected start year: 1900
+2025-10-14 16:17:16 | INFO | HomePage | Selected end year: 2024
+2025-10-14 16:17:25 | INFO | HomePage | Year range selected: 2000-2020
+2025-10-14 16:17:25 | INFO | HomePage | Selected start year: 2000
+2025-10-14 16:17:25 | INFO | HomePage | Selected end year: 2020
+2025-10-14 16:17:35 | INFO | HomePage | Selected rating: 1 stars
+2025-10-14 16:17:44 | INFO | HomePage | Selected rating: 2 stars
+2025-10-14 16:17:54 | INFO | HomePage | Selected genre: Action
+2025-10-14 16:18:05 | ERROR | HomePage | Error selecting genre 'Action': Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x99fea3+66515]
+	GetHandleVerifier [0x0x99fee4+66580]
+	(No symbol) [0x0x78dc48]
+	(No symbol) [0x0x7d8704]
+	(No symbol) [0x0x7d8aab]
+	(No symbol) [0x0x81f482]
+	(No symbol) [0x0x7fb214]
+	(No symbol) [0x0x81cba7]
+	(No symbol) [0x0x7fafc6]
+	(No symbol) [0x0x7cc2ca]
+	(No symbol) [0x0x7cd154]
+	GetHandleVerifier [0x0xbf73d3+2521347]
+	GetHandleVerifier [0x0xbf2353+2500739]
+	GetHandleVerifier [0x0x9c7cf4+229924]
+	GetHandleVerifier [0x0x9b8258+165768]
+	GetHandleVerifier [0x0x9bed0d+193085]
+	GetHandleVerifier [0x0x9a81b8+100072]
+	GetHandleVerifier [0x0x9a8350+100480]
+	GetHandleVerifier [0x0x99260a+11066]
+	BaseThreadInitThunk [0x0x75125d49+25]
+	RtlInitializeExceptionChain [0x0x7744d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7744d661+561]
+
+2025-10-14 16:18:14 | INFO | HomePage | Pagination is visible.
+2025-10-14 16:18:14 | INFO | HomePage | Clicked next page button.
+2025-10-14 16:18:14 | INFO | HomePage | Currently selected page: 2
+2025-10-14 16:19:53 | INFO | HomePage | Selected page: 53019
+2025-10-14 16:20:04 | ERROR | HomePage | Error getting titles: Message: 
+
+2025-10-14 16:34:38 | INFO | automation | ==== Starting API Test for Category: popular ====
+2025-10-14 16:34:38 | INFO | automation | Step 1: Sending GET request to https://api.themoviedb.org/3/movie/popular?page=1&api_key=add494e96808c55b3ee7f940c9d5e5b6
+2025-10-14 16:34:39 | INFO | automation | Response Code: 200
+2025-10-14 16:34:39 | INFO | automation | Step 2: Parsing JSON response
+2025-10-14 16:34:39 | INFO | automation | Step 3: Validating presence of 'results' key
+2025-10-14 16:34:39 | INFO | automation | Step 4: Number of movies returned: 20
+2025-10-14 16:34:39 | INFO | automation | Step 5: Validating fields for first 5 movies
+2025-10-14 16:34:39 | INFO | automation | Validating Movie 1: The Conjuring: Last Rites
+2025-10-14 16:34:39 | INFO | automation | Validating Movie 2: The Lost Princess
+2025-10-14 16:34:39 | INFO | automation | Validating Movie 3: The Toxic Avenger Unrated
+2025-10-14 16:34:39 | INFO | automation | Validating Movie 4: Demon Slayer: Kimetsu no Yaiba Infinity Castle
+2025-10-14 16:34:39 | INFO | automation | Validating Movie 5: War of the Worlds
+2025-10-14 16:34:39 | INFO | automation | ==== API Test Passed for 'popular' ====
+2025-10-14 16:34:39 | INFO | automation | ==== Starting API Test for Category: top_rated ====
+2025-10-14 16:34:39 | INFO | automation | Step 1: Sending GET request to https://api.themoviedb.org/3/movie/top_rated?page=1&api_key=add494e96808c55b3ee7f940c9d5e5b6
+2025-10-14 16:34:39 | INFO | automation | Response Code: 200
+2025-10-14 16:34:39 | INFO | automation | Step 2: Parsing JSON response
+2025-10-14 16:34:39 | INFO | automation | Step 3: Validating presence of 'results' key
+2025-10-14 16:34:39 | INFO | automation | Step 4: Number of movies returned: 20
+2025-10-14 16:34:39 | INFO | automation | Step 5: Validating fields for first 5 movies
+2025-10-14 16:34:39 | INFO | automation | Validating Movie 1: The Shawshank Redemption
+2025-10-14 16:34:39 | INFO | automation | Validating Movie 2: The Godfather
+2025-10-14 16:34:39 | INFO | automation | Validating Movie 3: The Godfather Part II
+2025-10-14 16:34:39 | INFO | automation | Validating Movie 4: Schindler's List
+2025-10-14 16:34:39 | INFO | automation | Validating Movie 5: 12 Angry Men
+2025-10-14 16:34:39 | INFO | automation | ==== API Test Passed for 'top_rated' ====
+2025-10-14 16:34:39 | INFO | automation | ==== Starting API Test for Category: now_playing ====
+2025-10-14 16:34:39 | INFO | automation | Step 1: Sending GET request to https://api.themoviedb.org/3/movie/now_playing?page=1&api_key=add494e96808c55b3ee7f940c9d5e5b6
+2025-10-14 16:34:40 | INFO | automation | Response Code: 200
+2025-10-14 16:34:40 | INFO | automation | Step 2: Parsing JSON response
+2025-10-14 16:34:40 | INFO | automation | Step 3: Validating presence of 'results' key
+2025-10-14 16:34:40 | INFO | automation | Step 4: Number of movies returned: 20
+2025-10-14 16:34:40 | INFO | automation | Step 5: Validating fields for first 5 movies
+2025-10-14 16:34:40 | INFO | automation | Validating Movie 1: The Conjuring: Last Rites
+2025-10-14 16:34:40 | INFO | automation | Validating Movie 2: The Toxic Avenger Unrated
+2025-10-14 16:34:40 | INFO | automation | Validating Movie 3: Demon Slayer: Kimetsu no Yaiba Infinity Castle
+2025-10-14 16:34:40 | INFO | automation | Validating Movie 4: Play Dirty
+2025-10-14 16:34:40 | INFO | automation | Validating Movie 5: HIM
+2025-10-14 16:34:40 | INFO | automation | ==== API Test Passed for 'now_playing' ====
+2025-10-14 16:34:40 | INFO | automation | ==== Starting API Test for Rating Filter ====
+2025-10-14 16:34:41 | INFO | automation | Request URL: https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&release_date.gte=1900-01-01&release_date.lte=2025-12-31&vote_average.gte=5&vote_average.lte=5&page=1&api_key=add494e96808c55b3ee7f940c9d5e5b6
+2025-10-14 16:34:41 | INFO | automation | Response Status: 200
+2025-10-14 16:34:41 | INFO | automation | Total Movies Returned: 20
+2025-10-14 16:34:41 | INFO | automation | Movie: Lubuk | Vote: 5.0
+2025-10-14 16:34:41 | INFO | automation | Movie: Beasts Cage | Vote: 5.0
+2025-10-14 16:34:41 | INFO | automation | Movie: Homo Argentum | Vote: 5.0
+2025-10-14 16:34:41 | INFO | automation | Movie: Favorite Concubine | Vote: 5.0
+2025-10-14 16:34:41 | INFO | automation | Movie: The Astronaut | Vote: 5.0
+2025-10-14 16:34:41 | INFO | automation | Movie: Molester Diary: A Man Who Kept Stroking Ass 3 | Vote: 5.0
+2025-10-14 16:34:41 | INFO | automation | Movie: Bosomy Mom 2 | Vote: 5.0
+2025-10-14 16:34:41 | INFO | automation | Movie: The Story of Ong-nyeo | Vote: 5.0
+2025-10-14 16:34:41 | INFO | automation | Movie: Acquitted by Faith | Vote: 5.0
+2025-10-14 16:34:41 | INFO | automation | Movie: Ungol | Vote: 5.0
+2025-10-14 16:34:41 | INFO | automation | Movie: Jinkx Monsoon: Red Head Redemption | Vote: 5.0
+2025-10-14 16:34:41 | INFO | automation | Movie: Axemas 2: Blood Slay | Vote: 5.0
+2025-10-14 16:34:41 | INFO | automation | Movie: The Devil Is Busy | Vote: 4.0
+2025-10-14 16:34:41 | INFO | automation | Movie: Control Room | Vote: 5.0
+2025-10-14 16:34:41 | INFO | automation | Movie: Swapping: My Friend's Wife 2 | Vote: 5.0
+2025-10-14 16:34:41 | INFO | automation | Movie: The Monster of Highgate Ponds | Vote: 5.0
+2025-10-14 16:34:41 | INFO | automation | Movie: The Oldest Profession | Vote: 5.0
+2025-10-14 16:34:41 | INFO | automation | Movie: Sorceress | Vote: 5.0
+2025-10-14 16:34:41 | INFO | automation | Movie: Snake Skin | Vote: 5.0
+2025-10-14 16:34:41 | INFO | automation | Movie: Stealing Lust | Vote: 5.0
+2025-10-14 16:34:41 | INFO | automation | ==== API Test Passed for Rating Filter ====
+
+2025-10-14 16:34:41 | INFO | automation | ==== Starting Year Range Test: 2000-2010 ====
+2025-10-14 16:34:42 | INFO | automation | Request URL: https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&release_date.gte=2000-01-01&release_date.lte=2010-12-31&vote_average.gte=0&vote_average.lte=5&page=1&api_key=add494e96808c55b3ee7f940c9d5e5b6
+2025-10-14 16:34:42 | INFO | automation | Response Status: 200
+2025-10-14 16:34:42 | INFO | automation | Movies Found: 20
+2025-10-14 16:34:42 | ERROR | automation | Assertion failed: (1989) is not in range
+assert 2000 <= 1989
+2025-10-14 16:34:42 | INFO | automation | ==== Starting Year Range Test: 2015-2025 ====
+2025-10-14 16:34:43 | INFO | automation | Request URL: https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&release_date.gte=2015-01-01&release_date.lte=2025-12-31&vote_average.gte=0&vote_average.lte=5&page=1&api_key=add494e96808c55b3ee7f940c9d5e5b6
+2025-10-14 16:34:43 | INFO | automation | Response Status: 200
+2025-10-14 16:34:43 | INFO | automation | Movies Found: 20
+2025-10-14 16:34:43 | INFO | automation | ==== API Year Range Test Passed for 2015-2025 ====
+
+2025-10-14 16:34:43 | INFO | automation | ==== Starting Pagination Test for Page 1 ====
+2025-10-14 16:34:44 | INFO | automation | Step 3: Validating 'results' in response JSON
+2025-10-14 16:34:44 | INFO | automation | ==== Pagination Test Passed for Page 1 ====
+
+2025-10-14 16:34:44 | INFO | automation | ==== Starting Pagination Test for Page 2 ====
+2025-10-14 16:34:44 | INFO | automation | Step 3: Validating 'results' in response JSON
+2025-10-14 16:34:44 | INFO | automation | ==== Pagination Test Passed for Page 2 ====
+
+2025-10-14 16:34:44 | INFO | automation | ==== Starting Pagination Test for Page 3 ====
+2025-10-14 16:34:45 | INFO | automation | Step 3: Validating 'results' in response JSON
+2025-10-14 16:34:45 | INFO | automation | ==== Pagination Test Passed for Page 3 ====
+
+2025-10-14 16:34:45 | INFO | automation | ==== Starting Pagination Test for Page 4 ====
+2025-10-14 16:34:46 | INFO | automation | Step 3: Validating 'results' in response JSON
+2025-10-14 16:34:46 | INFO | automation | ==== Pagination Test Passed for Page 4 ====
+
+2025-10-14 16:34:57 | INFO | HomePage | Selecting category: Popular
+2025-10-14 16:34:57 | INFO | HomePage | Clicked on category: Popular
+2025-10-14 16:34:57 | INFO | HomePage | Found 20 movie titles: ['The Conjuring: Last Rites', 'The Lost Princess', 'The Toxic Avenger Unrated', 'Demon Slayer: Kimetsu no Yaiba Infinity Castle', 'War of the Worlds'] ...
+2025-10-14 16:35:03 | INFO | HomePage | Selecting category: Trending
+2025-10-14 16:35:14 | ERROR | HomePage | Error selecting category 'Trending': Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xa8fea3+66515]
+	GetHandleVerifier [0x0xa8fee4+66580]
+	(No symbol) [0x0x87dc48]
+	(No symbol) [0x0x8c8704]
+	(No symbol) [0x0x8c8aab]
+	(No symbol) [0x0x90f482]
+	(No symbol) [0x0x8eb214]
+	(No symbol) [0x0x90cba7]
+	(No symbol) [0x0x8eafc6]
+	(No symbol) [0x0x8bc2ca]
+	(No symbol) [0x0x8bd154]
+	GetHandleVerifier [0x0xce73d3+2521347]
+	GetHandleVerifier [0x0xce2353+2500739]
+	GetHandleVerifier [0x0xab7cf4+229924]
+	GetHandleVerifier [0x0xaa8258+165768]
+	GetHandleVerifier [0x0xaaed0d+193085]
+	GetHandleVerifier [0x0xa981b8+100072]
+	GetHandleVerifier [0x0xa98350+100480]
+	GetHandleVerifier [0x0xa8260a+11066]
+	BaseThreadInitThunk [0x0x75125d49+25]
+	RtlInitializeExceptionChain [0x0x7744d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7744d661+561]
+
+2025-10-14 16:35:24 | INFO | HomePage | Selecting category: Newest
+2025-10-14 16:35:24 | INFO | HomePage | Clicked on category: Newest
+2025-10-14 16:35:25 | INFO | HomePage | Found 20 movie titles: ['The Conjuring: Last Rites', 'The Toxic Avenger Unrated', 'Demon Slayer: Kimetsu no Yaiba Infinity Castle', 'Play Dirty', 'HIM'] ...
+2025-10-14 16:35:34 | INFO | HomePage | Selecting category: Top rated
+2025-10-14 16:35:34 | INFO | HomePage | Clicked on category: Top rated
+2025-10-14 16:35:35 | INFO | HomePage | Found 20 movie titles: ['The Shawshank Redemption', 'The Godfather', 'The Godfather Part II', "Schindler's List", '12 Angry Men'] ...
+2025-10-14 16:35:41 | INFO | HomePage | Selected type: Movie
+2025-10-14 16:35:41 | INFO | HomePage | Currently selected type: Movie
+2025-10-14 16:35:51 | INFO | HomePage | Selected type: TV Shows
+2025-10-14 16:35:51 | INFO | HomePage | Currently selected type: TV Shows
+2025-10-14 16:36:01 | INFO | HomePage | Year range selected: 1900-2024
+2025-10-14 16:36:01 | INFO | HomePage | Selected start year: 1900
+2025-10-14 16:36:01 | INFO | HomePage | Selected end year: 2024
+2025-10-14 16:36:07 | INFO | HomePage | Year range selected: 2000-2020
+2025-10-14 16:36:07 | INFO | HomePage | Selected start year: 2000
+2025-10-14 16:36:07 | INFO | HomePage | Selected end year: 2020
+2025-10-14 16:36:16 | INFO | HomePage | Selected rating: 1 stars
+2025-10-14 16:36:25 | INFO | HomePage | Selected rating: 2 stars
+2025-10-14 16:36:35 | INFO | HomePage | Selected genre: Action
+2025-10-14 16:36:46 | ERROR | HomePage | Error selecting genre 'Action': Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xa8fea3+66515]
+	GetHandleVerifier [0x0xa8fee4+66580]
+	(No symbol) [0x0x87dc48]
+	(No symbol) [0x0x8c8704]
+	(No symbol) [0x0x8c8aab]
+	(No symbol) [0x0x90f482]
+	(No symbol) [0x0x8eb214]
+	(No symbol) [0x0x90cba7]
+	(No symbol) [0x0x8eafc6]
+	(No symbol) [0x0x8bc2ca]
+	(No symbol) [0x0x8bd154]
+	GetHandleVerifier [0x0xce73d3+2521347]
+	GetHandleVerifier [0x0xce2353+2500739]
+	GetHandleVerifier [0x0xab7cf4+229924]
+	GetHandleVerifier [0x0xaa8258+165768]
+	GetHandleVerifier [0x0xaaed0d+193085]
+	GetHandleVerifier [0x0xa981b8+100072]
+	GetHandleVerifier [0x0xa98350+100480]
+	GetHandleVerifier [0x0xa8260a+11066]
+	BaseThreadInitThunk [0x0x75125d49+25]
+	RtlInitializeExceptionChain [0x0x7744d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7744d661+561]
+
+2025-10-14 16:36:56 | INFO | HomePage | Pagination is visible.
+2025-10-14 16:36:56 | INFO | HomePage | Clicked next page button.
+2025-10-14 16:36:56 | INFO | HomePage | Currently selected page: 2
+2025-10-14 16:38:33 | INFO | HomePage | Selected page: 53019
+2025-10-14 16:38:44 | ERROR | HomePage | Error getting titles: Message: 
+
+2025-10-14 16:48:03 | INFO | automation | ==== Starting Year Range Test: 2000-2010 ====
+2025-10-14 16:48:04 | INFO | automation | Request URL: https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&release_date.gte=2000-01-01&release_date.lte=2010-12-31&vote_average.gte=0&vote_average.lte=5&page=1&api_key=add494e96808c55b3ee7f940c9d5e5b6
+2025-10-14 16:48:04 | INFO | automation | Response Status: 200
+2025-10-14 16:48:04 | INFO | automation | Movies Found: 20
+2025-10-14 16:48:04 | ERROR | automation | Assertion failed: (1989) is not in range
+assert 2000 <= 1989
+2025-10-14 16:48:13 | INFO | HomePage | Selecting category: Trending
+2025-10-14 16:48:24 | ERROR | HomePage | Error selecting category 'Trending': Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x59fea3+66515]
+	GetHandleVerifier [0x0x59fee4+66580]
+	(No symbol) [0x0x38dc48]
+	(No symbol) [0x0x3d8704]
+	(No symbol) [0x0x3d8aab]
+	(No symbol) [0x0x41f482]
+	(No symbol) [0x0x3fb214]
+	(No symbol) [0x0x41cba7]
+	(No symbol) [0x0x3fafc6]
+	(No symbol) [0x0x3cc2ca]
+	(No symbol) [0x0x3cd154]
+	GetHandleVerifier [0x0x7f73d3+2521347]
+	GetHandleVerifier [0x0x7f2353+2500739]
+	GetHandleVerifier [0x0x5c7cf4+229924]
+	GetHandleVerifier [0x0x5b8258+165768]
+	GetHandleVerifier [0x0x5bed0d+193085]
+	GetHandleVerifier [0x0x5a81b8+100072]
+	GetHandleVerifier [0x0x5a8350+100480]
+	GetHandleVerifier [0x0x59260a+11066]
+	BaseThreadInitThunk [0x0x75125d49+25]
+	RtlInitializeExceptionChain [0x0x7744d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7744d661+561]
+
+2025-10-14 16:48:35 | INFO | HomePage | Selected genre: Action
+2025-10-14 16:50:12 | INFO | HomePage | Selected page: 53019
+2025-10-14 16:50:23 | ERROR | HomePage | Error getting titles: Message: 
+
