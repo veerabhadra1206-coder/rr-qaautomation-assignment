@@ -33,7 +33,7 @@ jobs:
       - name: Run Tests and Generate HTML Report
         run: |
           mkdir -p reports
-          pytest --html=reports/report.html --self-contained-html --capture=tee-sys || true
+          pytest --html=reports/report.html --self-contained-html 
         continue-on-error: true
   
       - name: Upload HTML Report
