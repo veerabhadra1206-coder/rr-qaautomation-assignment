@@ -44,8 +44,8 @@ The target demo website is: https://tmdb-discover.surge.sh/
 
 ## **1. UI test cases**
 
-| Test Case | Steps| Expected Result|
-|-----------|------|----------------|
+| Test Case | Steps | Expected Result |
+|-----------|-------|----------------|
 | Category API          | 1. Send GET request to `/movie/{category}`<br>2. Parse response<br>3. Validate fields     | Status code is 200.<br>Response JSON contains `results`.<br>Each result has `title`, `id`.   |
 | Rating Filter API     | 1. Send GET request with `vote_average.gte` parameter<br>2. Parse response                | Status code is 200.<br>All returned items have `vote_average` at/above the parameter value.  |
 | Year Range API        | 1. Send GET with `release_date.gte` and `.lte` params<br>2. Parse response                | Status code is 200.<br>All listed movies are within the specified year range.                |
@@ -53,7 +53,7 @@ The target demo website is: https://tmdb-discover.surge.sh/
 | Invalid Category API  | 1. Send GET to a non-existent category<br>2. Parse response                               | Status code is 4xx.<br>Error message is included in the response.                            |
 
 
-### **2. Functional Test Suite Implementation**
+### **2. Test Suite Implementation**
 
 **Technologies / Libraries Used:**
 - **Python** – Test scripts  
@@ -61,7 +61,6 @@ The target demo website is: https://tmdb-discover.surge.sh/
 - **Pytest** – Test runner  
 - **pytest-html** – HTML report generation with screenshots  
 - **Requests** – API testing  
-- **webdriver-manager** – Browser driver management  
 
 **Features Implemented:**
 - Fully automated tests for **UI filters** and **pagination**  
@@ -88,41 +87,6 @@ pytest --html=reports/report.html --self-contained-html
   - API responses  
   - Errors / assertion failures  
 
-
-### **4. Screenshots & HTML Reports**
-
-- Screenshots are saved in `reports/screenshots` on test failure  
-- Pytest-html embeds screenshots in the report automatically  
-
-- Reports contain:
-  - Test status (Pass/Fail)
-  - Steps and logs
-  - Screenshot attachments for failed tests
-
----
-
-### **5. API Test Implementation**
-
-- **Endpoints Tested:**
-  - Category listing (popular, top_rated, now_playing)  
-  - Rating filter (vote_average ≤ 5)  
-  - Year range filter  
-  - Pagination  
-
-**API Test Example:**
-```python
-response = requests.get(f"{BASE_URL}/{category}?page=1&api_key={API_KEY}")
-assert response.status_code == 200
-data = response.json()
-assert "results" in data
-```
-
-- Validates:
-  - Status code  
-  - Expected JSON keys  
-  - Data correctness (title, release_date, vote_average, id)  
-
----
 
 ### **6. Defects Found**
 - Refreshing category URLs sometimes fails  
@@ -163,33 +127,7 @@ jobs:
           path: reports/
 ```
 
----
 
-### **8. Folder Structure**
-```
-rr-qa-automation-assignment/
-│
-├── pages/
-│   ├── base_page.py
-│   └── home_page.py
-│
-├── tests/
-│   ├── test_ui_filters.py
-│   ├── test_api_endpoints.py
-│   └── conftest.py
-│
-├── utils/
-│   ├── config.py
-│   ├── test_data.py
-│   └── logger.py
-│
-├── reports/
-│   └── screenshots/
-│
-├── requirements.txt
-├── pytest.ini
-└── README.md
-```
 
 
 
