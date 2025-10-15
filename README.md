@@ -28,69 +28,64 @@ The target demo website is: https://tmdb-discover.surge.sh/
 
 ---
 
-## **Test Strategy**
 
-### **1. UI test cases**
+## **🔹 UI Test Cases**
 
-| Test Case | Steps | Expected Result |
-|-----------|-------|----------------|
-| Category Filter | 1. Open Home Page <br> 2. Click on a category <br> 3. Wait for titles to load | URL contains category slug, movie titles displayed |
-| Type Filter | 1. Open Type dropdown <br> 2. Select Movie/TV Show <br> 3. Validate selection | Dropdown shows selected type |
-| Year Range Filter | 1. Select start and end year <br> 2. Validate UI shows selected range | Displayed movies are within the year range |
-| Star Rating Filter | 1. Select a star rating <br> 2. Validate selected star | Movies are filtered based on rating |
-| Genre Filter | 1. Open Genre dropdown <br> 2. Select Action <br> 3. Validate UI | Dropdown shows selected genre |
-| Pagination | 1. Wait for pagination <br> 2. Click next page <br> 3. Verify page number | Movies titles for next page are displayed |
-| Category Page Refresh | 1. Open category URL <br> 2. Refresh page <br> 3. Validate movie titles | Titles reload successfully |
-| Broken Pages Check | 1. Navigate last 3 pages <br> 2. Verify movie titles | No missing movie titles |
+| Test Case | Test Function | Steps | Expected Result |
+|----------------|------------------|------------|---------------------|
+| Category Filter | `test_category_filter` | 1. Open Home Page.<br>2. Click on a category.<br>3. Wait for movie titles to load.<br>4. Check URL and UI updates. | URL updates with category slug.<br>Movie titles are displayed correctly. |
+| Type Filter | `test_type_filter` | 1. Open “Type” dropdown.<br>2. Select Movie/TV Show.<br>3. Wait for UI update.<br>4. Verify selection. | Dropdown shows the selected type. |
+| Year Range Filter | `test_year_range_filter` | 1. Select start and end year.<br>2. Validate selected range on screen. | Displayed movies fall within selected year range. |
+| Star Rating Filter | `test_star_rating` | 1. Select a star rating (1–5).<br>2. Wait for star to activate.<br>3. Validate selected rating. | Selected star is active.<br>Movies are filtered by rating. |
+| Genre Filter | `test_genre_filter` | 1. Open Genre dropdown.<br>2. Select a genre - Action.<br>3. Verify dropdown value. | Selected genre appears correctly in dropdown. |
+| Pagination | `test_pagination` | 1. Wait for pagination to appear.<br>2. Click “Next Page”.<br>3. Verify active page number. | Next page loads and displays movie titles. |
+| Category Page Refresh | `test_refresh_category` | 1. Open category page.<br>2. Refresh the page.<br>3. Verify movie titles reload. | Movies reload successfully after refresh. |
+| Broken Pages Check | `test_broken_pages` | 1. Fetch last 3 pagination pages.<br>2. Open each page.<br>3. Verify movie titles. | No missing or empty movie titles on last pages. |
 
-## **1. UI test cases**
+---
 
-| Test Case | Steps | Expected Result |
-|-----------|-------|----------------|
-| Category API  | 1. Send GET request to /movie/{category}<br>2. Parse response<br>3. Validate fields  | Status code is 200.<br>Response JSON contains 'results'.<br>Each result has title, id. |
-| Rating Filter API  | 1. Send GET request with vote_average.gte parameter<br>2. Parse response  | Status code is 200.<br>All returned items have vote_average at/above the parameter value.|
-| Year Range API  | 1. Send GET with release_date.gte and .lte params<br>2. Parse response  | Status code is 200.<br>All listed movies are within the specified year range.|
-| Pagination API | 1. Send GET request with page parameter<br>2. Parse response  | Status code is 200.<br>Returned data corresponds to the requested page.|
+## ** API Test Cases**
 
+| **Test Case** | **Test Function name** | **Steps** | **Expected Result** |
+|----------------|------------------|------------|---------------------|
+| Category API | `test_api_category` | 1. Send GET request to `/movie/{category}`.<br>2. Parse JSON response.<br>3. Validate fields. | Status 200 OK.<br>Response contains `results`.<br>Each movie has `title`, `release_date`, `vote_average`, and `id`. |
+| Rating Filter API | `test_api_rating` | 1. Send GET request with `vote_average.gte` and `.lte` filters.<br>2. Parse response.<br>3. Validate votes. | Status 200 OK.<br>All returned movies have `vote_average ≤ 5`. |
+| Year Range API | `test_api_year_range` | 1. Send GET request with `release_date.gte` and `.lte` params.<br>2. Parse response.<br>3. Validate release years. | Status 200 OK.<br>Movies fall within the selected year range. |
+| Pagination API | `test_api_pagination` | 1. Send GET request with `page` parameter.<br>2. Parse response. | Status 200 OK.<br>Data corresponds to the requested page number. |
 
-### **2. Test Suite Implementation**
+---
 
-**Technologies / Libraries Used:**
-- **Python** – Test scripts  
-- **Selenium** – Web UI automation  
-- **Pytest** – Test runner  
-- **pytest-html** – HTML report generation with screenshots  
-- **Requests** – API testing  
-
-**Features Implemented:**
+### Features Implemented
+- All tests are written using **Pytest**.  
+- UI tests use **Selenium WebDriver** for browser automation.  
+- API tests use **Requests** for REST API validation.  
 - Fully automated tests for **UI filters** and **pagination**  
-- **API tests** for categories, rating, year range, and pagination  
-- **Logging** implemented with `logging` module (info, step, error logs)  
-- Screenshots captured **on failures** and attached to HTML report  
+- **API tests** for categories, rating, year range, and pagination
 - Configurable test data stored in `utils/test_data.py`  
-- Config file (`utils/config.py`) for base URL, waits, browser, and paths  
+- Config file (`utils/config.py`) for base URL, waits, browser, and paths   
+- **Logging** implemented with `logging` module in `utils/logger.py` (info, step, error logs)
+- Each test includes detailed logging for every step and validation. 
+- Screenshots captured **on failures** and attached to HTML report  
+ 
 
 **Test Execution Command Example:**
 ```bash
 pytest --html=reports/report.html --self-contained-html
 ```
 
----
-
 ### **3. Logging**
 
 - Logs stored in **console** and file (/logs/automation)  
 - Logs include:
   - Test start/end  
-  - Step execution  
-  - Selected filters  
+  - Step execution   
   - API responses  
   - Errors / assertion failures  
 
 
 ### **6. Defects Found**
-- Refreshing category URLs sometimes fails  
-- Pagination works for first few pages; last few pages may not display movies  
+- Refreshing category URLs fails  
+- Pagination works for first few pages; last few pages (broken) are not showing any movie titles  
 
 ---
 
