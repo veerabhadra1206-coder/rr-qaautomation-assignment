@@ -1,4 +1,5 @@
 # RR – QA Automation Assignment
+--veerabhadra--
 
 ## **Description**
 This project is a hybrid test automation framework for a movie and TV show listing platform, covering both UI and API testing. It uses keyword-driven, data-driven, and Page Object Model (POM) strategies, with integrated logging and screenshots, to deliver scalable, maintainable, and reusable tests suitable for CI/CD pipelines.
@@ -40,17 +41,16 @@ The target demo website is: https://tmdb-discover.surge.sh/
 | Genre Filter | 1. Open Genre dropdown <br> 2. Select Action <br> 3. Validate UI | Dropdown shows selected genre |
 | Pagination | 1. Wait for pagination <br> 2. Click next page <br> 3. Verify page number | Movies titles for next page are displayed |
 | Category Page Refresh | 1. Open category URL <br> 2. Refresh page <br> 3. Validate movie titles | Titles reload successfully |
-| Broken Pages Check | 1. Navigate last 3 pages <br> 2. Verify movie titles | No missing titles |
+| Broken Pages Check | 1. Navigate last 3 pages <br> 2. Verify movie titles | No missing movie titles |
 
 ## **1. UI test cases**
 
 | Test Case | Steps | Expected Result |
 |-----------|-------|----------------|
-| Category API          | 1. Send GET request to `/movie/{category}`<br>2. Parse response<br>3. Validate fields     | Status code is 200.<br>Response JSON contains `results`.<br>Each result has `title`, `id`.   |
-| Rating Filter API     | 1. Send GET request with `vote_average.gte` parameter<br>2. Parse response                | Status code is 200.<br>All returned items have `vote_average` at/above the parameter value.  |
-| Year Range API        | 1. Send GET with `release_date.gte` and `.lte` params<br>2. Parse response                | Status code is 200.<br>All listed movies are within the specified year range.                |
-| Pagination API        | 1. Send GET request with `page` parameter<br>2. Parse response                            | Status code is 200.<br>Returned data corresponds to the requested page.                      |
-| Invalid Category API  | 1. Send GET to a non-existent category<br>2. Parse response                               | Status code is 4xx.<br>Error message is included in the response.                            |
+| Category API  | 1. Send GET request to `/movie/{category}`<br>2. Parse response<br>3. Validate fields  | Status code is 200.<br>Response JSON contains `results`.<br>Each result has `title`, `id`. |
+| Rating Filter API  | 1. Send GET request with `vote_average.gte` parameter<br>2. Parse response  | Status code is 200.<br>All returned items have `vote_average` at/above the parameter value.|
+| Year Range API  | 1. Send GET with `release_date.gte` and `.lte` params<br>2. Parse response  | Status code is 200.<br>All listed movies are within the specified year range.|
+| Pagination API | 1. Send GET request with `page` parameter<br>2. Parse response  | Status code is 200.<br>Returned data corresponds to the requested page.|
 
 
 ### **2. Test Suite Implementation**
