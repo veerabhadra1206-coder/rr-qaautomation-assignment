@@ -1,7 +1,7 @@
 # RR – QA Automation Assignment
 
 ## **Description**
-Thank you for showing interest in Rapyuta Robotics and for wanting to be a Rapyutian.  
+This project is a hybrid test automation framework for a movie and TV show listing platform, covering both UI and API testing. It uses keyword-driven, data-driven, and Page Object Model (POM) strategies, with integrated logging and screenshots, to deliver scalable, maintainable, and reusable tests suitable for CI/CD pipelines.
 This assignment showcases my skills in UI and API test automation using Python, Selenium, and Pytest.  
 The target demo website is: https://tmdb-discover.surge.sh/
 
@@ -11,7 +11,7 @@ The target demo website is: https://tmdb-discover.surge.sh/
 
 1. **Filtering Options**
    - **Categories:** Popular, Trending, Newest, Top Rated  
-   - **Titles:** Movie or TV show titles  
+   - **Titles**  
    - **Type:** Movies or TV Shows  
    - **Year of Release:** Using start and end year  
    - **Rating:** Star rating filter  
