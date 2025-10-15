@@ -95,36 +95,59 @@ pytest --html=reports/report.html --self-contained-html
 ---
 
 ### **7. CI/CD Integration Approach**
-I have not implemented, but the approach would be:
 
 1. **GitHub Actions** pipeline  
 2. Steps:
    - Install Python dependencies (`requirements.txt`)  
    - Run Pytest tests  
-   - Generate HTML report and save artifacts  
-   - Optionally upload screenshots for failed tests  
-3. Schedule **daily or on PR** runs to catch regression issues  
+   - Generate HTML report and save artifacts       
 
 **GitHub Actions YAML snippet:**
 ```yaml
-name: Run UI/API Tests
+name: Run UI + API Tests for rr
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
+
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
+      # Checkout repo
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # Setup Python
+      - name: Setup Python
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
-      - run: pip install -r requirements.txt
-      - run: pytest --html=reports/report.html --self-contained-html
-      - uses: actions/upload-artifact@v3
+          python-version: "3.10"
+
+      # Installing dependencies
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pytest-html
+
+      - name: Run Tests and Generate HTML Report
+        run: |
+          mkdir -p reports
+          pytest --html=reports/report.html --self-contained-html 
+        continue-on-error: true
+  
+      - name: Upload HTML Report
+        uses: actions/upload-artifact@v4
         with:
-          name: Test-Report
+          name: pytest-html-report
           path: reports/
+
 ```
 
 
