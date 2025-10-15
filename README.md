@@ -47,10 +47,10 @@ The target demo website is: https://tmdb-discover.surge.sh/
 
 | Test Case | Steps | Expected Result |
 |-----------|-------|----------------|
-| Category API  | 1. Send GET request to `/movie/{category}`<br>2. Parse response<br>3. Validate fields  | Status code is 200.<br>Response JSON contains `results`.<br>Each result has `title`, `id`. |
-| Rating Filter API  | 1. Send GET request with `vote_average.gte` parameter<br>2. Parse response  | Status code is 200.<br>All returned items have `vote_average` at/above the parameter value.|
-| Year Range API  | 1. Send GET with `release_date.gte` and `.lte` params<br>2. Parse response  | Status code is 200.<br>All listed movies are within the specified year range.|
-| Pagination API | 1. Send GET request with `page` parameter<br>2. Parse response  | Status code is 200.<br>Returned data corresponds to the requested page.|
+| Category API  | 1. Send GET request to /movie/{category}<br>2. Parse response<br>3. Validate fields  | Status code is 200.<br>Response JSON contains 'results'.<br>Each result has title, id. |
+| Rating Filter API  | 1. Send GET request with vote_average.gte parameter<br>2. Parse response  | Status code is 200.<br>All returned items have vote_average at/above the parameter value.|
+| Year Range API  | 1. Send GET with release_date.gte and .lte params<br>2. Parse response  | Status code is 200.<br>All listed movies are within the specified year range.|
+| Pagination API | 1. Send GET request with page parameter<br>2. Parse response  | Status code is 200.<br>Returned data corresponds to the requested page.|
 
 
 ### **2. Test Suite Implementation**
