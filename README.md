@@ -58,7 +58,7 @@ The target demo website is: https://tmdb-discover.surge.sh/
 ### Features Implemented
 - All tests are written using **Pytest**.  
 - UI tests use **Selenium WebDriver** for browser automation.  
-- API tests use **Requests** for REST API validation.  
+- API tests use **Requests** for API validation.  
 - Fully automated tests for **UI filters** and **pagination**  
 - **API tests** for categories, rating, year range, and pagination
 - Configurable test data stored in `utils/test_data.py`  
