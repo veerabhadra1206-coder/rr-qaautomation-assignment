@@ -50,8 +50,8 @@ class HomePage:
             
     # After clicking the category UI changes to white from blue
     def get_category_color(self, category_name):
-    element = self.driver.find_element(By.XPATH, f"//li[a[text()='{category_name}']]")
-    return element.get_attribute("class")
+        element = self.driver.find_element(By.XPATH, f"//li[a[text()='{category_name}']]")
+        return element.get_attribute("class")
 
     # Select from Type dropdown (Movie/TV Shows)
     def select_type(self, type_name):
