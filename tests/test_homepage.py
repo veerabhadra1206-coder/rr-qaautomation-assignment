@@ -30,7 +30,12 @@ def test_category_filter(driver, category, slug):
         logger.info(f"Current URL: {current_url}")
         assert expected_url in current_url, f"Expected '{expected_url}' in URL"
 
-        logger.info("Step 4: Verifying movie titles are displayed")
+        logger.info("Step 4: Verifying UI update")
+        color_class = home.get_category_color(category)
+        logger.info(f"{category} UI check in done")
+        assert "white" in color_class
+
+        logger.info("Step 5: Verifying movie titles are displayed")
         titles = home.get_all_titles()
         logger.info(f"Titles displayed for '{category}': {titles}")
         assert titles, f"No titles found for '{category}'"
